@@ -1,0 +1,542 @@
+[
+  {
+    "name": "monument_bell_tower",
+    "conditions": ["structure=legendarymonuments:bell_tower"],
+    "priority": 320,
+    "tracks": ["hgss_bell_tower.mp3"]
+  },
+  {
+    "name": "monument_lugia_temple",
+    "conditions": ["structure=legendarymonuments:lugia_temple"],
+    "priority": 320,
+    "tracks": ["hgss_surf.mp3"]
+  },
+  {
+    "name": "monument_spear_pillar",
+    "conditions": ["structure=legendarymonuments:spear_pillar"],
+    "priority": 320,
+    "tracks": ["dppt_spear_pillar.mp3"]
+  },
+  {
+    "name": "monument_distortion_nexus",
+    "conditions": ["structure=legendarymonuments:distortion_nexus"],
+    "priority": 320,
+    "tracks": ["dppt_distortion_world.mp3"]
+  },
+  {
+    "name": "monument_knightly_heroes",
+    "conditions": ["structure=legendarymonuments:throneroom_of_knightly_heroes"],
+    "priority": 320,
+    "tracks": ["bw2_battle_swords_of_justice.mp3"]
+  },
+  {
+    "name": "monument_reawakening_sanctum",
+    "conditions": ["structure=legendarymonuments:reawakening_sanctum"],
+    "priority": 320,
+    "tracks": ["bw_battle_legendary_pokémon.mp3"]
+  },
+  {
+    "name": "monument_ruin_shrines",
+    "conditions": ["structure=legendarymonuments:ruin_shrine"],
+    "priority": 320,
+    "tracks": ["bw_relic_castle.mp3"]
+  },
+  {
+    "name": "monument_lake_trio",
+    "conditions": ["structure=legendarymonuments:lake_shrine"],
+    "priority": 320,
+    "tracks": ["dppt_lake_caverns.mp3"]
+  },
+  {
+    "name": "battle_ho_oh",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:ho-oh=20"],
+    "priority": 315,
+    "tracks": ["hgss_battle_ho-oh.mp3"]
+  },
+  {
+    "name": "battle_lugia",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:lugia=20"],
+    "priority": 315,
+    "tracks": ["hgss_battle_lugia.mp3"]
+  },
+  {
+    "name": "battle_mewtwo",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:mewtwo=20"],
+    "priority": 315,
+    "tracks": ["hgss_battle_mewtwo.mp3"]
+  },
+  {
+    "name": "battle_deoxys",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:deoxys=20"],
+    "priority": 315,
+    "tracks": ["rse_battle_deoxys.mp3"]
+  },
+  {
+    "name": "battle_arceus",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:arceus=20"],
+    "priority": 315,
+    "tracks": ["dppt_battle_arceus.mp3"]
+  },
+  {
+    "name": "battle_giratina",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:giratina=20"],
+    "priority": 315,
+    "tracks": ["dppt_battle_giratina.mp3"]
+  },
+  {
+    "name": "battle_dialga_palkia",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:dialga=20", "proximity:cobblemon:palkia=20"],
+    "priority": 315,
+    "tracks": ["dppt_battle_dialgapalkia.mp3"]
+  },
+  {
+    "name": "battle_reshiram_zekrom",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:reshiram=20", "proximity:cobblemon:zekrom=20"],
+    "priority": 315,
+    "tracks": ["bw_battle_reshiramzekrom.mp3"]
+  },
+  {
+    "name": "battle_kyurem_base",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:kyurem=20"],
+    "priority": 315,
+    "tracks": ["bw_battle_kyurem.mp3"]
+  },
+  {
+    "name": "battle_kyurem_fusions",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:black_kyurem=20", "proximity:cobblemon:white_kyurem=20"],
+    "priority": 315,
+    "tracks": ["bw2_battle_black_kyuremwhite_kyurem.mp3"]
+  },
+  {
+    "name": "battle_weather_trio",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:groudon=25", "proximity:cobblemon:kyogre=25", "proximity:cobblemon:rayquaza=25"],
+    "priority": 315,
+    "tracks": ["rse_battle_super-ancient_pokémon.mp3", "hgss_battle_super-ancient_pokémon.mp3"]
+  },
+  {
+    "name": "battle_kanto_birds",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:articuno=20", "proximity:cobblemon:zapdos=20", "proximity:cobblemon:moltres=20"],
+    "priority": 315,
+    "tracks": ["frlg_battle_legendary_birds.mp3"]
+  },
+  {
+    "name": "battle_swords_of_justice",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:cobalion=20", "proximity:cobblemon:terrakion=20", "proximity:cobblemon:virizion=20", "proximity:cobblemon:keldeo=20"],
+    "priority": 315,
+    "tracks": ["bw2_battle_swords_of_justice.mp3"]
+  },
+  {
+    "name": "battle_lake_trio",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:uxie=20", "proximity:cobblemon:mesprit=20", "proximity:cobblemon:azelf=20"],
+    "priority": 315,
+    "tracks": ["dppt_battle_azelfmesprituxie.mp3", "bw2_battle_azelfmesprituxie.mp3"]
+  },
+  {
+    "name": "battle_beast_trio",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:raikou=20", "proximity:cobblemon:entei=20", "proximity:cobblemon:suicune=20"],
+    "priority": 315,
+    "tracks": ["hgss_battle_raikou.mp3", "hgss_battle_entei.mp3", "hgss_battle_suicune.mp3"]
+  },
+  {
+    "name": "battle_regi_trio",
+    "conditions": ["cobblemon:in_battle", "proximity:cobblemon:regirock=20", "proximity:cobblemon:regice=20", "proximity:cobblemon:registeel=20", "proximity:cobblemon:regigigas=20"],
+    "priority": 315,
+    "tracks": ["rse_battle_regirockregiceregisteel.mp3", "dppt_battle_regirockregiceregisteel.mp3", "bw2_battle_regirockregiceregisteel.mp3"]
+  },
+  {
+    "name": "encounter_ho_oh",
+    "conditions": ["proximity:cobblemon:ho-oh=20"],
+    "priority": 310,
+    "tracks": ["hgss_bell_tower.mp3"]
+  },
+  {
+    "name": "encounter_lugia",
+    "conditions": ["proximity:cobblemon:lugia=20"],
+    "priority": 310,
+    "tracks": ["hgss_surf.mp3"]
+  },
+  {
+    "name": "encounter_mewtwo",
+    "conditions": ["proximity:cobblemon:mewtwo=20"],
+    "priority": 310,
+    "tracks": ["rse_cave_of_origin.mp3"]
+  },
+  {
+    "name": "encounter_deoxys",
+    "conditions": ["proximity:cobblemon:deoxys=20"],
+    "priority": 310,
+    "tracks": ["dppt_deep_within_team_galactic_hq.mp3"]
+  },
+  {
+    "name": "encounter_arceus",
+    "conditions": ["proximity:cobblemon:arceus=20"],
+    "priority": 310,
+    "tracks": ["dppt_hall_of_origin.mp3"]
+  },
+  {
+    "name": "encounter_giratina",
+    "conditions": ["proximity:cobblemon:giratina=20"],
+    "priority": 310,
+    "tracks": ["dppt_distortion_world.mp3"]
+  },
+  {
+    "name": "encounter_dialga_palkia",
+    "conditions": ["proximity:cobblemon:dialga=20", "proximity:cobblemon:palkia=20"],
+    "priority": 310,
+    "tracks": ["dppt_spear_pillar.mp3"]
+  },
+  {
+    "name": "encounter_reshiram_zekrom",
+    "conditions": ["proximity:cobblemon:reshiram=20", "proximity:cobblemon:zekrom=20"],
+    "priority": 310,
+    "tracks": ["bw_dragonspiral_tower_top_floor.mp3"]
+  },
+  {
+    "name": "encounter_kyurem_base",
+    "conditions": ["proximity:cobblemon:kyurem=20"],
+    "priority": 310,
+    "tracks": ["bw2_frozen_city.mp3"]
+  },
+  {
+    "name": "encounter_kyurem_fusions",
+    "conditions": ["proximity:cobblemon:black_kyurem=20", "proximity:cobblemon:white_kyurem=20"],
+    "priority": 310,
+    "tracks": ["bw2_frozen_city.mp3"]
+  },
+  {
+    "name": "encounter_groudon",
+    "conditions": ["proximity:cobblemon:groudon=25"],
+    "priority": 310,
+    "tracks": ["rse_drought.mp3"]
+  },
+  {
+    "name": "encounter_kyogre",
+    "conditions": ["proximity:cobblemon:kyogre=25"],
+    "priority": 310,
+    "tracks": ["rse_heavy_rain.mp3"]
+  },
+  {
+    "name": "encounter_rayquaza",
+    "conditions": ["proximity:cobblemon:rayquaza=25"],
+    "priority": 310,
+    "tracks": ["rse_mt._chimney.mp3"]
+  },
+  {
+    "name": "encounter_kanto_birds",
+    "conditions": ["proximity:cobblemon:articuno=20", "proximity:cobblemon:zapdos=20", "proximity:cobblemon:moltres=20"],
+    "priority": 310,
+    "tracks": ["dppt_lake.mp3"]
+  },
+  {
+    "name": "encounter_swords_of_justice",
+    "conditions": ["proximity:cobblemon:cobalion=20", "proximity:cobblemon:terrakion=20", "proximity:cobblemon:virizion=20", "proximity:cobblemon:keldeo=20"],
+    "priority": 310,
+    "tracks": ["bw_musical_forest_stroll.mp3"]
+  },
+  {
+    "name": "encounter_lake_trio",
+    "conditions": ["proximity:cobblemon:uxie=20", "proximity:cobblemon:mesprit=20", "proximity:cobblemon:azelf=20"],
+    "priority": 310,
+    "tracks": ["dppt_lake.mp3", "bw2_cave_of_being.mp3"]
+  },
+  {
+    "name": "encounter_beast_trio",
+    "conditions": ["proximity:cobblemon:raikou=20", "proximity:cobblemon:entei=20", "proximity:cobblemon:suicune=20"],
+    "priority": 310,
+    "tracks": ["hgss_burned_tower.mp3"]
+  },
+  {
+    "name": "encounter_regi_trio",
+    "conditions": ["proximity:cobblemon:regirock=20", "proximity:cobblemon:regice=20", "proximity:cobblemon:registeel=20", "proximity:cobblemon:regigigas=20"],
+    "priority": 310,
+    "tracks": ["bw2_underground_ruins.mp3"]
+  },
+  {
+    "name": "battle_general_legendaries",
+    "conditions": ["cobblemon:in_battle", "cobblemon:is_legendary"],
+    "priority": 305,
+    "tracks": ["dppt_battle_legendary_pokémon.mp3", "bw_battle_legendary_pokémon.mp3", "bw2_battle_legendary_pokémon_sinnoh.mp3"]
+  },
+  {
+    "name": "battle_climax_arcs",
+    "conditions": ["cobblemon:in_battle", "dimension=minecraft:the_end"],
+    "priority": 280,
+    "tracks": ["bw_battle_n.mp3", "bw_final_battle_n.mp3", "bw2_battle_n.mp3"]
+  },
+  {
+    "name": "battle_elite_champions",
+    "conditions": ["cobblemon:in_battle", "proximity:minecraft:dragon_egg=12"],
+    "priority": 270,
+    "tracks": ["rse_battle_elite_four.mp3", "dppt_battle_elite_four.mp3", "bw_battle_elite_four.mp3", "rse_battle_champion.mp3", "dppt_battle_champion.mp3", "hgss_battle_champion.mp3", "bw_battle_cynthia.mp3", "bw2_battle_champion.mp3", "bw2_battle_champion_hoenn.mp3", "bw2_battle_champion_johto.mp3", "bw2_battle_champion_kanto.mp3", "bw2_battle_champion_sinnoh.mp3", "bw_final_battle_world_championships.mp3"]
+  },
+  {
+    "name": "battle_gym_leaders",
+    "conditions": ["cobblemon:in_battle", "proximity:minecraft:beacon=12"],
+    "priority": 260,
+    "tracks": ["rse_battle_gym_leader.mp3", "dppt_battle_gym_leader.mp3", "hgss_battle_gym_leader_johto.mp3", "hgss_battle_gym_leader_kanto.mp3", "bw_battle_gym_leader.mp3", "bw2_battle_gym_leader_hoenn.mp3", "bw2_battle_gym_leader_johto.mp3", "bw2_battle_gym_leader_sinnoh.mp3"]
+  },
+  {
+    "name": "battle_faction_leaders",
+    "conditions": ["cobblemon:in_battle", "structure=minecraft:mansion"],
+    "priority": 250,
+    "tracks": ["rse_battle_team_aquateam_magma_leaders.mp3", "dppt_battle_team_galactic_commander.mp3", "dppt_battle_team_galactic_boss.mp3", "bw_battle_ghetsis.mp3", "bw2_battle_ghetsis.mp3", "bw2_battle_colress.mp3"]
+  },
+  {
+    "name": "battle_hostile_factions",
+    "conditions": ["cobblemon:in_battle", "structure=minecraft:pillager_outpost"],
+    "priority": 240,
+    "tracks": ["rse_battle_team_aquateam_magma.mp3", "dppt_battle_team_galactic.mp3", "hgss_battle_team_rocket.mp3", "bw_battle_team_plasma.mp3", "bw2_battle_team_plasma.mp3"]
+  },
+  {
+    "name": "battle_rivals",
+    "conditions": ["cobblemon:in_battle", "cobblemon:battle_type=rival"],
+    "priority": 230,
+    "tracks": ["rse_battle_brendanmay.mp3", "dppt_battle_rival.mp3", "hgss_battle_rival.mp3", "bw_battle_cherenbianca.mp3"]
+  },
+  {
+    "name": "battle_competitive_facilities",
+    "conditions": ["structure=minecraft:trial_chambers"],
+    "priority": 228,
+    "tracks": ["dppt_battle_tower.mp3", "hgss_battle_arcade.mp3", "hgss_battle_castle.mp3", "hgss_battle_factory.mp3", "hgss_battle_frontier_brain.mp3", "hgss_battle_hall.mp3", "hgss_battle_tower.mp3", "rse_battle_tower.mp3", "bw_battle_subway.mp3"]
+  },
+  {
+    "name": "battle_trainer_underground",
+    "conditions": ["cobblemon:in_battle", "cobblemon:battle_type=trainer", "y_level<40"],
+    "priority": 225,
+    "tracks": ["hgss_battle_trainer_kanto.mp3", "bw_battle_battle_subway_trainer.mp3"]
+  },
+  {
+    "name": "battle_trainer_standard",
+    "conditions": ["cobblemon:in_battle", "cobblemon:battle_type=trainer"],
+    "priority": 220,
+    "tracks": ["rse_battle_trainer.mp3", "dppt_battle_trainer.mp3", "hgss_battle_trainer_johto.mp3", "bw_battle_trainer.mp3"]
+  },
+  {
+    "name": "battle_wild_bosses",
+    "conditions": ["cobblemon:in_battle", "cobblemon:is_boss"],
+    "priority": 210,
+    "tracks": ["bw_battle_strong_wild_pokémon.mp3"]
+  },
+  {
+    "name": "battle_wild_coastal",
+    "conditions": ["cobblemon:in_battle", "cobblemon:battle_type=wild", "biome=#minecraft:is_beach"],
+    "priority": 205,
+    "tracks": ["hgss_battle_wild_pokémon_kanto.mp3"]
+  },
+  {
+    "name": "battle_wild_standard",
+    "conditions": ["cobblemon:in_battle", "cobblemon:battle_type=wild"],
+    "priority": 200,
+    "tracks": ["rse_battle_wild_pokémon.mp3", "dppt_battle_wild_pokémon.mp3", "hgss_battle_wild_pokémon_johto.mp3", "bw_battle_wild_pokémon.mp3"]
+  },
+  {
+    "name": "cobbletown_isolated_lentimas",
+    "conditions": ["proximity:structure=cobbletowns:lentimas_town=30"],
+    "priority": 145,
+    "tracks": ["bw2_lentimas_town.mp3"]
+  },
+  {
+    "name": "cobbletown_coastal_pacifidlog",
+    "conditions": ["proximity:structure=cobbletowns:pacifidlog_town=30"],
+    "priority": 145,
+    "tracks": ["rse_dewford_town.mp3", "rse_lilycove_city.mp3"]
+  },
+  {
+    "name": "cobbletown_woodland_rural_sinnoh_johto",
+    "conditions": ["proximity:structure=cobbletowns:twinleaf_town=30", "proximity:structure=cobbletowns:floaroma_town=30", "proximity:structure=cobbletowns:cherrygrove_city=30"],
+    "priority": 145,
+    "tracks": ["dppt_twinleaf_town_day.mp3", "dppt_floaroma_town_day.mp3", "hgss_cherrygrove_city.mp3"]
+  },
+  {
+    "name": "cobbletown_kanto_heritage",
+    "conditions": ["proximity:structure=cobbletowns:pallet_town=30", "proximity:structure=cobbletowns:lavender_town=30"],
+    "priority": 145,
+    "tracks": ["hgss_pallet_town.mp3", "hgss_lavender_town.mp3"]
+  },
+  {
+    "name": "cobblemon_additions_villages",
+    "conditions": ["proximity:structure=additions:pokemon_village=30"],
+    "priority": 140,
+    "tracks": ["rse_oldale_town.mp3", "bw_accumula_town.mp3"]
+  },
+  {
+    "name": "settlement_metropolis_hubs",
+    "conditions": ["biome=minecraft:plains,minecraft:sunflower_plains,terralith:blooming_valley,terralith:lavender_forest,terralith:moonlight_grove", "proximity:minecraft:villager=15"],
+    "priority": 135,
+    "tracks": ["rse_petalburg_city.mp3", "rse_rustboro_city.mp3", "hgss_goldenrod_city.mp3", "hgss_celadon_city.mp3", "hgss_cerulean_city.mp3", "dppt_jubilife_city.mp3", "dppt_jubilife_city_day.mp3", "dppt_hearthome_city_day.mp3", "dppt_veilstone_city_day.mp3", "bw_castelia_city.mp3", "bw_nimbasa_city.mp3", "bw_driftveil_city.mp3"]
+  },
+  {
+    "name": "settlement_mountain_industrial",
+    "conditions": ["biome=minecraft:savanna,minecraft:savanna_plateau,terralith:stony_spires,terralith:scarlet_mountains", "y_level>90"],
+    "priority": 135,
+    "tracks": ["rse_fallarbor_town.mp3", "hgss_violet_city.mp3", "hgss_pewter_city.mp3", "dppt_oreburgh_city_day.mp3", "dppt_eterna_city_day.mp3", "bw_nacrene_city.mp3", "bw_striaton_city.mp3"]
+  },
+  {
+    "name": "settlement_isolated_frontier",
+    "conditions": ["biome=minecraft:desert,minecraft:badlands,terralith:badlands_canyon,terralith:painted_desert,terralith:volcanic_crater"],
+    "priority": 135,
+    "tracks": ["hgss_pallet_town.mp3", "hgss_ecruteak_city.mp3", "hgss_cianwood_city.mp3", "dppt_sunyshore_city_day.mp3", "bw_mistralton_city.mp3", "bw_anville_town.mp3", "bw_icirrus_city.mp3", "bw2_lentimas_town.mp3"]
+  },
+  {
+    "name": "settlement_coastal_ports",
+    "conditions": ["biome=minecraft:ocean,minecraft:deep_ocean,minecraft:beach,terralith:mirage_isles"],
+    "priority": 130,
+    "tracks": ["rse_dewford_town.mp3", "rse_lilycove_city.mp3", "rse_slateport_city.mp3", "hgss_vermilion_city.mp3", "hgss_cinnabar_island.mp3", "dppt_canalave_city.mp3", "bw_undella_town_summer.mp3", "bw2_humilau_city.mp3"]
+  },
+  {
+    "name": "settlement_woodland_rural",
+    "conditions": ["biome=minecraft:taiga,minecraft:old_growth_pine_taiga,minecraft:snowy_taiga,minecraft:snowy_plains,terralith:siberian_taiga,terralith:wintry_forest,terralith:alpine_grove"],
+    "priority": 130,
+    "tracks": ["rse_littleroot_town.mp3", "rse_oldale_town.mp3", "rse_verdanturf_town.mp3", "rse_fortree_city.mp3", "hgss_cherrygrove_city.mp3", "hgss_azalea_town.mp3", "dppt_twinleaf_town_day.mp3", "dppt_sandgem_town_day.mp3", "dppt_floaroma_town_day.mp3", "dppt_solaceon_town_day.mp3", "bw_nuvema_town.mp3", "bw_accumula_town.mp3", "bw_lacunosa_town.mp3", "hgss_new_bark_town.mp3"]
+  },
+  {
+    "name": "settlement_specialized_districts",
+    "conditions": ["structure=minecraft:ancient_city"],
+    "priority": 125,
+    "tracks": ["bw_black_city.mp3", "bw_white_forest.mp3", "bw2_black_tower.mp3", "bw2_black_tower_entrance.mp3", "bw_unity_tower.mp3"]
+  },
+  {
+    "name": "settlement_historical_alt",
+    "conditions": ["biome=minecraft:old_growth_pine_taiga,minecraft:old_growth_spruce_taiga"],
+    "priority": 125,
+    "tracks": ["bw_opelucid_city_black.mp3", "bw_opelucid_city_white.mp3"]
+  },
+  {
+    "name": "dungeon_fortresses",
+    "conditions": ["structure=minecraft:woodland_mansion"],
+    "priority": 120,
+    "tracks": ["bw_n's_castle.mp3", "bw2_n's_castle.mp3", "bw_dragonspiral_tower.mp3", "bw_dragonspiral_tower_top_floor.mp3", "bw_the_pokémon_league_besieged.mp3", "bw_the_pokémon_league_besieged_alt.mp3"]
+  },
+  {
+    "name": "dungeon_forgotten_ruins",
+    "conditions": ["structure=minecraft:desert_pyramid,minecraft:jungle_pyramid"],
+    "priority": 115,
+    "tracks": ["hgss_ruins_of_alph.mp3", "hgss_sinjoh_ruins.mp3", "bw_relic_castle.mp3", "bw_dreamyard.mp3", "bw_abyssal_ruins.mp3", "bw2_underground_ruins.mp3", "bw2_cave_of_being.mp3"]
+  },
+  {
+    "name": "dungeon_sacred_towers",
+    "conditions": ["structure=minecraft:pillager_outpost", "y_level>85"],
+    "priority": 110,
+    "tracks": ["hgss_sprout_tower.mp3", "hgss_bell_tower.mp3", "rse_high_ambient_pyre.mp3", "rse_mt._pyre.mp3"]
+  },
+  {
+    "name": "dungeon_chateaus_and_gyms",
+    "conditions": ["structure=minecraft:stronghold"],
+    "priority": 105,
+    "tracks": ["dppt_old_chateau.mp3", "dppt_pokémon_gym.mp3", "hgss_burned_tower.mp3"]
+  },
+  {
+    "name": "dungeon_victory_roads",
+    "conditions": ["structure=minecraft:nether_bridge"],
+    "priority": 100,
+    "tracks": ["rse_victory_road.mp3", "dppt_victory_road.mp3", "hgss_victory_road.mp3", "bw_victory_road.mp3", "bw_pokémon_league.mp3", "dppt_pokémon_league_day.mp3", "dppt_decisive_battle_pokémon_league.mp3", "rse_ever_grande_city.mp3"]
+  },
+  {
+    "name": "weather_thunderstorm",
+    "conditions": ["weather=thunder"],
+    "priority": 150,
+    "tracks": ["rse_heavy_rain.mp3"]
+  },
+  {
+    "name": "environmental_cataclysms",
+    "conditions": ["biome=minecraft:soul_sand_valley"],
+    "priority": 95,
+    "tracks": ["rse_drought.mp3", "rse_heavy_rain.mp3", "bw2_frozen_city.mp3", "bw2_opelucid_city_attacked.mp3"]
+  },
+  {
+    "name": "environment_magmatic_crater",
+    "conditions": ["biome=minecraft:basalt_deltas,minecraft:nether_wastes,terralith:volcanic_peaks,terralith:volcanic_crater"],
+    "priority": 90,
+    "tracks": ["rse_mt._chimney.mp3", "dppt_stark_mountain.mp3", "bw2_reversal_mountain_black.mp3", "bw2_reversal_mountain_white.mp3"]
+  },
+  {
+    "name": "nautical_vessels_and_wrecks",
+    "conditions": ["structure=minecraft:shipwreck"],
+    "priority": 85,
+    "tracks": ["rse_abandoned_ship.mp3", "rse_oceanic_museum.mp3", "hgss_s.s._aqua.mp3"]
+  },
+  {
+    "name": "environment_mountain_summits",
+    "conditions": ["biome=minecraft:jagged_peaks,minecraft:stony_peaks,terralith:scarlet_mountains,terralith:yosemite_cliffs,terralith:frozen_cliffs,terralith:stony_spires,terralith:emerald_peaks,terralith:white_cliffs", "y_level>120"],
+    "priority": 85,
+    "tracks": ["dppt_mt._coronet.mp3", "dppt_spear_pillar.mp3"]
+  },
+  {
+    "name": "nautical_deep_sea_surf",
+    "conditions": ["biome=minecraft:deep_ocean", "proximity:minecraft:water=0"],
+    "priority": 80,
+    "tracks": ["rse_surf.mp3", "dppt_surf.mp3", "hgss_surf.mp3"]
+  },
+  {
+    "name": "architecture_mega_bridges",
+    "conditions": ["biome=minecraft:river", "y_level>70"],
+    "priority": 75,
+    "tracks": ["bw_skyarrow_bridge.mp3", "bw_driftveil_drawbridge.mp3", "bw_tubeline_bridge.mp3", "bw_village_bridge.mp3", "bw_marvelous_bridge.mp3"]
+  },
+  {
+    "name": "cavern_deep_slate",
+    "conditions": ["y_level<0"],
+    "priority": 70,
+    "tracks": ["rse_cave_of_origin.mp3", "hgss_mt._moon.mp3", "bw_chargestone_cave.mp3"]
+  },
+  {
+    "name": "cavern_shallow_mines",
+    "conditions": ["y_level<50", "y_level>0"],
+    "priority": 60,
+    "tracks": ["hgss_dark_cave.mp3", "hgss_union_cave.mp3", "dppt_oreburgh_mine.mp3", "bw_cold_storage.mp3", "hgss_mt._moon_square.mp3"]
+  },
+  {
+    "name": "terralith_unexplored_wonders",
+    "conditions": ["biome=terralith:underground_jungle,terralith:frostfire_caves,terralith:fungal_caves,terralith:infested_caves"],
+    "priority": 55,
+    "tracks": ["rse_cave_of_origin.mp3", "bw_chargestone_cave.mp3", "bw2_underground_ruins.mp3"]
+  },
+  {
+    "name": "wilderness_dense_woodlands",
+    "conditions": ["biome=minecraft:dark_forest,minecraft:forest,terralith:moonlight_grove,terralith:amethyst_rainforest,terralith:lavender_forest"],
+    "priority": 50,
+    "tracks": ["rse_petalburg_woods.mp3", "hgss_viridian_forest.mp3", "dppt_eterna_forest.mp3", "bw_lostlorn_forest.mp3", "bw_musical_forest_stroll.mp3"]
+  },
+  {
+    "name": "wilderness_swamps_and_wetlands",
+    "conditions": ["biome=minecraft:swamp,minecraft:mangrove_swamp,terralith:orchid_swamp,terralith:lotus_marsh"],
+    "priority": 50,
+    "tracks": ["rse_route_119.mp3", "rse_route_120.mp3", "dppt_route_210_day.mp3", "bw2_route_22_summer.mp3", "dppt_lake.mp3", "dppt_a_surprise_at_the_lake.mp3"]
+  },
+  {
+    "name": "wilderness_alpine_peaks",
+    "conditions": ["biome=minecraft:snowy_plains,minecraft:grove,terralith:siberian_taiga,terralith:wintry_forest,terralith:alpine_grove,terralith:alpha_islands"],
+    "priority": 50,
+    "tracks": ["dppt_route_216_day.mp3", "dppt_snowpoint_city_day.mp3"]
+  },
+  {
+    "name": "wilderness_desolate_lands",
+    "conditions": ["biome=minecraft:desert,minecraft:badlands,terralith:badlands_canyon,terralith:painted_desert,terralith:volcanic_crater,terralith:sand_dunes"],
+    "priority": 50,
+    "tracks": ["rse_route_111.mp3", "dppt_route_228_day.mp3", "bw_route_4_summer.mp3"]
+  },
+  {
+    "name": "wilderness_midday_midlands",
+    "conditions": ["biome=minecraft:meadow,minecraft:sunflower_plains,terralith:blooming_valley,terralith:skylands"],
+    "priority": 45,
+    "tracks": ["hgss_route_3.mp3", "hgss_route_30.mp3", "hgss_route_34.mp3", "dppt_route_205_day.mp3", "dppt_route_209_day.mp3", "bw_route_6_summer.mp3", "hgss_route_11.mp3", "hgss_route_24.mp3", "hgss_route_38.mp3", "hgss_route_42.mp3"]
+  },
+  {
+    "name": "wilderness_coastal_routes",
+    "conditions": ["biome=minecraft:beach,minecraft:stony_shore,terralith:mirage_isles,terralith:warm_river"],
+    "priority": 45,
+    "tracks": ["rse_route_110.mp3", "hgss_route_47.mp3", "dppt_valor_lakefront_day.mp3", "rse_surf.mp3"]
+  },
+  {
+    "name": "wilderness_high_tier_routes",
+    "conditions": ["biome=minecraft:savanna,minecraft:windswept_hills,terralith:stony_spires,terralith:shrubland,terralith:savanna_badlands"],
+    "priority": 45,
+    "tracks": ["bw_route_10.mp3", "bw_route_12_summer.mp3", "bw2_route_23.mp3", "dppt_route_225_day.mp3", "hgss_route_26.mp3"]
+  },
+  {
+    "name": "wilderness_exploration_ambient",
+    "conditions": [],
+    "priority": 40,
+    "tracks": ["rse_route_101.mp3", "rse_route_104.mp3", "dppt_route_201_day.mp3", "dppt_route_203_day.mp3", "hgss_route_1.mp3", "hgss_route_29.mp3", "bw_route_1.mp3", "bw_route_2_summer.mp3", "rse_route_113.mp3", "dppt_route_206_day.mp3", "bw2_road_to_reversal_mountain.mp3", "hgss_lavender_town.mp3", "dppt_contest_hall.mp3"]
+  }
+]

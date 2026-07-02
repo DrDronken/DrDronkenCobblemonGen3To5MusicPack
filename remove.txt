@@ -1,0 +1,108 @@
+BW - Congratulations! Your Pokémon Evolved!.mp3
+BW - Global Terminal.mp3
+BW - GTS.mp3
+BW - Level Up!.mp3
+BW - Musical A Sweet Soirée.mp3
+BW - Musical Carnival Ludicolo!.mp3
+BW - Musical Carnival Pokémon.mp3
+BW - Musical Charming Munna.mp3
+BW - Musical Exciting Nimbasa.mp3
+BW - Musical Forest Stroll.mp3
+BW - Musical Meloettaaa!!!.mp3
+BW - Musical Pokémon Smash!.mp3
+BW - Musical Stardom.mp3
+BW - Musical Theater.mp3
+BW - Nintendo Wi-Fi Connection.mp3
+BW - Obtained a Badge!.mp3
+BW - Obtained a Key Item!.mp3
+BW - Obtained a TM!.mp3
+BW - Obtained an Item!.mp3
+BW - Pokémon Healed.mp3
+BW - Received a Pokémon Egg!.mp3
+BW - Received Battle Points!.mp3
+BW - Received Props!.mp3
+BW - The Curtain for the Musical Rises!.mp3
+BW2 - Staff Credits.mp3
+DPPt - Battle Tower.mp3
+DPPt - Congratulations! Your Pokémon Evolved!.mp3
+DPPt - Contest Dress Up.mp3
+DPPt - Contest Hall.mp3
+DPPt - Contest Results Announcement.mp3
+DPPt - Contest Winner.mp3
+DPPt - Ending.mp3
+DPPt - GTS.mp3
+DPPt - Hall of Fame (Intro).mp3
+DPPt - Hall of Fame.mp3
+DPPt - Level Up!.mp3
+DPPt - Move Deleted.mp3
+DPPt - Nintendo Wi-Fi Connection.mp3
+DPPt - Obtained a Badge!.mp3
+DPPt - Obtained a Berry!.mp3
+DPPt - Obtained a Key Item!.mp3
+DPPt - Obtained a Pokétch App!.mp3
+DPPt - Obtained a TM!.mp3
+DPPt - Obtained an Item!.mp3
+DPPt - Opening Movie.mp3
+DPPt - Pokémon Healed.mp3
+DPPt - Super Contest!.mp3
+DPPt - Title Screen.mp3
+HGSS - Battle Arcade.mp3
+HGSS - Battle Castle.mp3
+HGSS - Battle Factory.mp3
+HGSS - Battle Hall.mp3
+HGSS - Battle Tower Reception Desk.mp3
+HGSS - Battle Tower.mp3
+HGSS - Bug-Catching Contest (Preparing).mp3
+HGSS - Bug-Catching Contest Second Place.mp3
+HGSS - Bug-Catching Contest Third Place.mp3
+HGSS - Bug-Catching Contest Winner.mp3
+HGSS - Bug-Catching Contest.mp3
+HGSS - Congratulations! Your Pokémon Evolved!.mp3
+HGSS - Ending.mp3
+HGSS - Global Terminal.mp3
+HGSS - GTS.mp3
+HGSS - Hall of Fame.mp3
+HGSS - Level Up!.mp3
+HGSS - Move Deleted.mp3
+HGSS - Nintendo Wi-Fi Connection.mp3
+HGSS - Obtained a Berry!.mp3
+HGSS - Obtained a Key Item!.mp3
+HGSS - Obtained a TM!.mp3
+HGSS - Obtained an Accessory!.mp3
+HGSS - Obtained an Item!.mp3
+HGSS - Pokéathlon An Event Begins!.mp3
+HGSS - Pokéathlon Event Time!.mp3
+HGSS - Pokéathlon Finals!.mp3
+HGSS - Pokéathlon Getting Changed.mp3
+HGSS - Pokéathlon In First Place!.mp3
+HGSS - Pokéathlon In the Pokéathlon Dome.mp3
+HGSS - Pokéathlon Medal Ceremony.mp3
+HGSS - Pokéathlon Opening Ceremony.mp3
+HGSS - Pokéathlon Results Announcement.mp3
+HGSS - Pokéathlon Winner!.mp3
+HGSS - Pokémon Healed.mp3
+HGSS - Received a Gym Badge!.mp3
+HGSS - Received a Pokémon Egg!.mp3
+HGSS - Received a Pokémon!.mp3
+HGSS - Received Battle Points in the Battle Arcade!.mp3
+HGSS - Received Battle Points!.mp3
+HGSS - Received Castle Points!.mp3
+HGSS - Wi-Fi Plaza Parade.mp3
+HGSS - Wi-Fi Plaza Plaza Games.mp3
+HGSS - Wi-Fi Plaza.mp3
+RSE - Battle Tower.mp3
+RSE - Congratulations! Your Pokémon Evolved!.mp3
+RSE - Contest Lobby.mp3
+RSE - Contest Winner.mp3
+RSE - Ending.mp3
+RSE - Hall of Fame.mp3
+RSE - Level Up!.mp3
+RSE - Move Deleted.mp3
+RSE - Obtained a Badge!.mp3
+RSE - Obtained a Berry!.mp3
+RSE - Obtained a TM!.mp3
+RSE - Obtained an Item!.mp3
+RSE - Opening Movie 2.mp3
+RSE - Pokémon Contest!.mp3
+RSE - Pokémon Healed.mp3
+RSE - Title Screen.mp3

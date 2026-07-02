@@ -1,0 +1,1978 @@
+﻿name: "Cobblemon Complete Universe Master Pack"
+
+songs:
+  # =========================================================================
+  # STRUCTURES & MONUMENTS (Highest Absolute Priority)
+  # =========================================================================
+  - path: "minecraft:pokemon/hgss_bell_tower"
+    conditions:
+      structure: "legendarymonuments:bell_tower"
+
+  - path: "minecraft:pokemon/hgss_surf"
+    conditions:
+      structure: "legendarymonuments:lugia_temple"
+
+  - path: "minecraft:pokemon/dppt_spear_pillar"
+    conditions:
+      structure: "legendarymonuments:spear_pillar"
+
+  - path: "minecraft:pokemon/dppt_distortion_world"
+    conditions:
+      structure: "legendarymonuments:distortion_nexus"
+
+  - path: "minecraft:pokemon/bw2_battle_swords_of_justice"
+    conditions:
+      structure: "legendarymonuments:throneroom_of_knightly_heroes"
+
+  - path: "minecraft:pokemon/bw_battle_legendary_pokemon"
+    conditions:
+      structure: "legendarymonuments:reawakening_sanctum"
+
+  - path: "minecraft:pokemon/bw_relic_castle"
+    conditions:
+      structure: "legendarymonuments:ruin_shrine"
+
+  - path: "minecraft:pokemon/dppt_lake_caverns"
+    conditions:
+      structure: "legendarymonuments:lake_shrine"
+
+  # =========================================================================
+  # COBBLEMON SPECIFIC BOSS & ENCOUNTER COMBAT (Proximity Battles)
+  # =========================================================================
+  - path: "minecraft:pokemon/hgss_battle_ho-oh"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:ho-oh"
+            distance: 20
+
+  - path: "minecraft:pokemon/hgss_battle_lugia"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:lugia"
+            distance: 20
+
+  - path: "minecraft:pokemon/hgss_battle_mewtwo"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:mewtwo"
+            distance: 20
+
+  - path: "minecraft:pokemon/rse_battle_deoxys"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:deoxys"
+            distance: 20
+
+  - path: "minecraft:pokemon/dppt_battle_arceus"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:arceus"
+            distance: 20
+
+  - path: "minecraft:pokemon/dppt_battle_giratina"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:giratina"
+            distance: 20
+
+  - path: "minecraft:pokemon/dppt_battle_dialgapalkia"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:dialga"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:palkia"
+                distance: 20
+
+  - path: "minecraft:pokemon/bw_battle_reshiramzekrom"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:reshiram"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:zekrom"
+                distance: 20
+
+  - path: "minecraft:pokemon/bw_battle_kyurem"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:kyurem"
+            distance: 20
+
+  # Fusion Kyurem Shuffles
+  - path: "minecraft:pokemon/bw2_battle_black_kyuremwhite_kyurem"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:black_kyurem"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:white_kyurem"
+                distance: 20
+
+  # Weather Trio Shuffles
+  - path: "minecraft:pokemon/rse_battle_super-ancient_pokemon"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:groudon"
+                distance: 25
+            - entity_distance:
+                entity: "cobblemon:kyogre"
+                distance: 25
+            - entity_distance:
+                entity: "cobblemon:rayquaza"
+                distance: 25
+
+  - path: "minecraft:pokemon/hgss_battle_super-ancient_pokemon"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:groudon"
+                distance: 25
+            - entity_distance:
+                entity: "cobblemon:kyogre"
+                distance: 25
+            - entity_distance:
+                entity: "cobblemon:rayquaza"
+                distance: 25
+
+  # Kanto Birds
+  - path: "minecraft:pokemon/frlg_battle_legendary_birds"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:articuno"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:zapdos"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:moltres"
+                distance: 20
+
+  # Swords of Justice
+  - path: "minecraft:pokemon/bw2_battle_swords_of_justice"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:cobalion"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:terrakion"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:virizion"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:keldeo"
+                distance: 20
+
+  # Lake Trio Battles
+  - path: "minecraft:pokemon/dppt_battle_azelfmesprituxie"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:uxie"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:mesprit"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:azelf"
+                distance: 20
+
+  - path: "minecraft:pokemon/bw2_battle_azelfmesprituxie"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:uxie"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:mesprit"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:azelf"
+                distance: 20
+
+  # Beast Trio Battles
+  - path: "minecraft:pokemon/hgss_battle_raikou"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:raikou"
+            distance: 20
+
+  - path: "minecraft:pokemon/hgss_battle_entei"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:entei"
+            distance: 20
+
+  - path: "minecraft:pokemon/hgss_battle_suicune"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance:
+            entity: "cobblemon:suicune"
+            distance: 20
+
+  # Regi Trio Battles
+  - path: "minecraft:pokemon/rse_battle_regirockregiceregisteel"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:regirock"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:regice"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:registeel"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:regigigas"
+                distance: 20
+
+  - path: "minecraft:pokemon/dppt_battle_regirockregiceregisteel"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:regirock"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:regice"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:registeel"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:regigigas"
+                distance: 20
+
+  - path: "minecraft:pokemon/bw2_battle_regirockregiceregisteel"
+    conditions:
+      all:
+        - is_combat: true
+        - any:
+            - entity_distance:
+                entity: "cobblemon:regirock"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:regice"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:registeel"
+                distance: 20
+            - entity_distance:
+                entity: "cobblemon:regigigas"
+                distance: 20
+
+  # =========================================================================
+  # OVERWORLD PROXIMITY RADAR ENCOUNTERS (Passive Music When Nearby)
+  # =========================================================================
+  - path: "minecraft:pokemon/hgss_bell_tower"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:ho-oh"
+        distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_surf"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:lugia"
+        distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_cave_of_origin"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:mewtwo"
+        distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_deep_within_team_galactic_hq"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:deoxys"
+        distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_hall_of_origin"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:arceus"
+        distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_distortion_world"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:giratina"
+        distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_spear_pillar"
+    conditions:
+      any:
+        - entity_distance:
+            entity: "cobblemon:dialga"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:palkia"
+            distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_dragonspiral_tower_top_floor"
+    conditions:
+      any:
+        - entity_distance:
+            entity: "cobblemon:reshiram"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:zekrom"
+            distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_frozen_city"
+    conditions:
+      any:
+        - entity_distance:
+            entity: "cobblemon:kyurem"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:black_kyurem"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:white_kyurem"
+            distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_drought"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:groudon"
+        distance: 25
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_heavy_rain"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:kyogre"
+        distance: 25
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_mt._chimney"
+    conditions:
+      entity_distance:
+        entity: "cobblemon:rayquaza"
+        distance: 25
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_lake"
+    conditions:
+      any:
+        - entity_distance:
+            entity: "cobblemon:articuno"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:zapdos"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:moltres"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:uxie"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:mesprit"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:azelf"
+            distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_musical_forest_stroll"
+    conditions:
+      any:
+        - entity_distance:
+            entity: "cobblemon:cobalion"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:terrakion"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:virizion"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:keldeo"
+            distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_cave_of_being"
+    conditions:
+      any:
+        - entity_distance:
+            entity: "cobblemon:uxie"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:mesprit"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:azelf"
+            distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_burned_tower"
+    conditions:
+      any:
+        - entity_distance:
+            entity: "cobblemon:raikou"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:entei"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:suicune"
+            distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_underground_ruins"
+    conditions:
+      any:
+        - entity_distance:
+            entity: "cobblemon:regirock"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:regice"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:registeel"
+            distance: 20
+        - entity_distance:
+            entity: "cobblemon:regigigas"
+            distance: 20
+    inverted_conditions:
+      - is_combat: true
+
+  # =========================================================================
+  # GLOBAL BATTLE CATEGORIES (General Legendaries & Progression Bosses)
+  # =========================================================================
+  - path: "minecraft:pokemon/dppt_battle_legendary_pokemon"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_battle_legendary_pokemon"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_legendary_pokemon_sinnoh"
+    conditions:
+      all:
+        - is_combat: true
+
+  # Dimensional Climax Fights (The End Dimension Map)
+  - path: "minecraft:pokemon/bw_battle_n"
+    conditions:
+      all:
+        - is_combat: true
+        - dimension: "minecraft:the_end"
+
+  - path: "minecraft:pokemon/bw_final_battle_n"
+    conditions:
+      all:
+        - is_combat: true
+        - dimension: "minecraft:the_end"
+
+  - path: "minecraft:pokemon/bw2_battle_n"
+    conditions:
+      all:
+        - is_combat: true
+        - dimension: "minecraft:the_end"
+
+  # Elite Fours & Champions (Triggered via proximity to a dragon egg container)
+  - path: "minecraft:pokemon/rse_battle_elite_four"
+    conditions:
+      all:
+        - is_combat: true
+        - entity_distance: { entity: "minecraft:player", distance: 12 } # Proxy fallback structure map block style
+
+  - path: "minecraft:pokemon/dppt_battle_elite_four"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_battle_elite_four"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/rse_battle_champion"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_battle_champion"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_battle_champion"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_battle_cynthia"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_champion"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_champion_hoenn"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_champion_johto"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_champion_kanto"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_champion_sinnoh"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_final_battle_world_championships"
+    conditions:
+      all:
+        - is_combat: true
+
+  # Gym Leader Battles (Triggered via proximity to beacons)
+  - path: "minecraft:pokemon/rse_battle_gym_leader"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_battle_gym_leader"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_battle_gym_leader_johto"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_battle_gym_leader_kanto"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_battle_gym_leader"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_gym_leader_hoenn"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_gym_leader_johto"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_battle_gym_leader_sinnoh"
+    conditions:
+      all:
+        - is_combat: true
+
+  # Faction Evil Leaders & Bosses (Mansion Map Struct)
+  - path: "minecraft:pokemon/rse_battle_team_aquateam_magma_leaders"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:mansion"
+
+  - path: "minecraft:pokemon/dppt_battle_team_galactic_commander"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:mansion"
+
+  - path: "minecraft:pokemon/dppt_battle_team_galactic_boss"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:mansion"
+
+  - path: "minecraft:pokemon/bw_battle_ghetsis"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:mansion"
+
+  - path: "minecraft:pokemon/bw2_battle_ghetsis"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:mansion"
+
+  - path: "minecraft:pokemon/bw2_battle_colress"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:mansion"
+
+  # Hostile Evil Factions (Pillager Outposts Map Struct)
+  - path: "minecraft:pokemon/rse_battle_team_aquateam_magma"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:pillager_outpost"
+
+  - path: "minecraft:pokemon/dppt_battle_team_galactic"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:pillager_outpost"
+
+  - path: "minecraft:pokemon/hgss_battle_team_rocket"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:pillager_outpost"
+
+  - path: "minecraft:pokemon/bw_battle_team_plasma"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:pillager_outpost"
+
+  - path: "minecraft:pokemon/bw2_battle_team_plasma"
+    conditions:
+      all:
+        - is_combat: true
+        - structure: "minecraft:pillager_outpost"
+
+  # Rivals & Subway Facility Map Systems (Trial Chambers Maps)
+  - path: "minecraft:pokemon/rse_battle_brendanmay"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_battle_rival"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_battle_rival"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_battle_cherenbianca"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_battle_tower"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/hgss_battle_arcade"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/hgss_battle_castle"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/hgss_battle_factory"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/hgss_battle_frontier_brain"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/hgss_battle_hall"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/hgss_battle_tower"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/hgss_battle_tower_reception_desk"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/rse_battle_tower"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  - path: "minecraft:pokemon/bw_battle_subway"
+    conditions:
+      structure: "minecraft:trial_chambers"
+
+  # Standard Trainer Fights
+  - path: "minecraft:pokemon/hgss_battle_trainer_kanto"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_battle_battle_subway_trainer"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/rse_battle_trainer"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_battle_trainer"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_battle_trainer_johto"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_battle_trainer"
+    conditions:
+      all:
+        - is_combat: true
+
+  # Wild Bosses & Regional Wild Shuffles
+  - path: "minecraft:pokemon/bw_battle_strong_wild_pokemon"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_battle_wild_pokemon_kanto"
+    conditions:
+      all:
+        - is_combat: true
+        - biome: "minecraft:beach"
+
+  - path: "minecraft:pokemon/rse_battle_wild_pokemon"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_battle_wild_pokemon"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_battle_wild_pokemon_johto"
+    conditions:
+      all:
+        - is_combat: true
+
+  - path: "minecraft:pokemon/bw_battle_wild_pokemon"
+    conditions:
+      all:
+        - is_combat: true
+
+  # =========================================================================
+  # TOWNS, SETTLEMENTS & EXPLORATION (Ambient Overworld Zones)
+  # =========================================================================
+  - path: "minecraft:pokemon/bw2_lentimas_town"
+    conditions:
+      structure: "cobbletowns:lentimas_town"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_dewford_town"
+    conditions:
+      any:
+        - structure: "cobbletowns:pacifidlog_town"
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:deep_ocean"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_lilycove_city"
+    conditions:
+      any:
+        - structure: "cobbletowns:pacifidlog_town"
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:deep_ocean"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_twinleaf_town_day"
+    conditions:
+      any:
+        - structure: "cobbletowns:twinleaf_town"
+        - structure: "cobbletowns:floaroma_town"
+        - structure: "cobbletowns:cherrygrove_city"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_floaroma_town_day"
+    conditions:
+      any:
+        - structure: "cobbletowns:twinleaf_town"
+        - structure: "cobbletowns:floaroma_town"
+        - structure: "cobbletowns:cherrygrove_city"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_cherrygrove_city"
+    conditions:
+      any:
+        - structure: "cobbletowns:twinleaf_town"
+        - structure: "cobbletowns:floaroma_town"
+        - structure: "cobbletowns:cherrygrove_city"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_pallet_town"
+    conditions:
+      any:
+        - structure: "cobbletowns:pallet_town"
+        - structure: "cobbletowns:lavender_town"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_lavender_town"
+    conditions:
+      any:
+        - structure: "cobbletowns:pallet_town"
+        - structure: "cobbletowns:lavender_town"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_oldale_town"
+    conditions:
+      structure: "additions:pokemon_village"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_accumula_town"
+    conditions:
+      structure: "additions:pokemon_village"
+    inverted_conditions:
+      - is_combat: true
+
+  # Metropolis Shubs (Plains Towns)
+  - path: "minecraft:pokemon/rse_petalburg_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_rustboro_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_goldenrod_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_celadon_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_cerulean_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_jubilife_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_jubilife_city_day"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_hearthome_city_day"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_veilstone_city_day"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_castelia_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_nimbasa_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_driftveil_city"
+    conditions:
+      any:
+        - biome: "minecraft:plains"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  # Mountain Settlements
+  - path: "minecraft:pokemon/rse_fallarbor_town"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:savanna_plateau"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_violet_city"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:savanna_plateau"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_pewter_city"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:savanna_plateau"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_oreburgh_city_day"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:savanna_plateau"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_eterna_city_day"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:savanna_plateau"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_nacrene_city"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:savanna_plateau"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_striaton_city"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:savanna_plateau"
+    inverted_conditions:
+      - is_combat: true
+
+  # Isolated Frontier
+  - path: "minecraft:pokemon/hgss_ecruteak_city"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_cianwood_city"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_sunyshore_city_day"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_mistralton_city"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_anville_town"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_icirrus_city"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  # Coastal Settlements
+  - path: "minecraft:pokemon/rse_slateport_city"
+    conditions:
+      any:
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:beach"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_vermilion_city"
+    conditions:
+      any:
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:beach"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_cinnabar_island"
+    conditions:
+      any:
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:beach"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_canalave_city"
+    conditions:
+      any:
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:beach"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_undella_town_summer"
+    conditions:
+      any:
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:beach"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_humilau_city"
+    conditions:
+      any:
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:beach"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_sootopolis_city"
+    conditions:
+      any:
+        - biome: "minecraft:ocean"
+        - biome: "minecraft:beach"
+    inverted_conditions:
+      - is_combat: true
+
+  # Woodland & Rural Settlements
+  - path: "minecraft:pokemon/rse_littleroot_town"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+        - biome: "minecraft:snowy_taiga"
+        - biome: "minecraft:snowy_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_verdanturf_town"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_fortree_city"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_azalea_town"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_sandgem_town_day"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_solaceon_town_day"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_nuvema_town"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_lacunosa_town"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_new_bark_town"
+    conditions:
+      any:
+        - biome: "minecraft:taiga"
+        - biome: "minecraft:old_growth_pine_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  # Specialized Districts & Ancient Architecture
+  - path: "minecraft:pokemon/bw_black_city"
+    conditions:
+      structure: "minecraft:ancient_city"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_white_forest"
+    conditions:
+      structure: "minecraft:ancient_city"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_black_tower"
+    conditions:
+      structure: "minecraft:ancient_city"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_black_tower_entrance"
+    conditions:
+      structure: "minecraft:ancient_city"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_unity_tower"
+    conditions:
+      structure: "minecraft:ancient_city"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_opelucid_city_black"
+    conditions:
+      biome: "minecraft:old_growth_spruce_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_opelucid_city_white"
+    conditions:
+      biome: "minecraft:old_growth_spruce_taiga"
+    inverted_conditions:
+      - is_combat: true
+
+  # =========================================================================
+  # DUNGEONS & UNIQUE STRUCTURES
+  # =========================================================================
+  - path: "minecraft:pokemon/bw_n's_castle"
+    conditions:
+      structure: "minecraft:woodland_mansion"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_n's_castle"
+    conditions:
+      structure: "minecraft:woodland_mansion"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_dragonspiral_tower"
+    conditions:
+      structure: "minecraft:woodland_mansion"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_the_pokemon_league_besieged"
+    conditions:
+      structure: "minecraft:woodland_mansion"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_the_pokemon_league_besieged_alt"
+    conditions:
+      structure: "minecraft:woodland_mansion"
+    inverted_conditions:
+      - is_combat: true
+
+  # Pyramids & Desert Temples
+  - path: "minecraft:pokemon/hgss_ruins_of_alph"
+    conditions:
+      any:
+        - structure: "minecraft:desert_pyramid"
+        - structure: "minecraft:jungle_pyramid"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_sinjoh_ruins"
+    conditions:
+      any:
+        - structure: "minecraft:desert_pyramid"
+        - structure: "minecraft:jungle_pyramid"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_dreamyard"
+    conditions:
+      any:
+        - structure: "minecraft:desert_pyramid"
+        - structure: "minecraft:jungle_pyramid"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_abyssal_ruins"
+    conditions:
+      any:
+        - structure: "minecraft:desert_pyramid"
+        - structure: "minecraft:jungle_pyramid"
+    inverted_conditions:
+      - is_combat: true
+
+  # Sacred Towers & Strongholds
+  - path: "minecraft:pokemon/hgss_sprout_tower"
+    conditions:
+      structure: "minecraft:stronghold"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_high_ambient_pyre"
+    conditions:
+      structure: "minecraft:stronghold"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_mt._pyre"
+    conditions:
+      structure: "minecraft:stronghold"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_mt._pyre_exterior"
+    conditions:
+      structure: "minecraft:stronghold"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_old_chateau"
+    conditions:
+      structure: "minecraft:stronghold"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_pokemon_gym"
+    conditions:
+      structure: "minecraft:stronghold"
+    inverted_conditions:
+      - is_combat: true
+
+  # Nether Strongholds & Leagues
+  - path: "minecraft:pokemon/rse_victory_road"
+    conditions:
+      structure: "minecraft:nether_bridge"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_victory_road"
+    conditions:
+      structure: "minecraft:nether_bridge"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_victory_road"
+    conditions:
+      structure: "minecraft:nether_bridge"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_victory_road"
+    conditions:
+      structure: "minecraft:nether_bridge"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_pokemon_league"
+    conditions:
+      structure: "minecraft:nether_bridge"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_pokemon_league_day"
+    conditions:
+      structure: "minecraft:nether_bridge"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_ever_grande_city"
+    conditions:
+      structure: "minecraft:nether_bridge"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_pokemon_league"
+    conditions:
+      structure: "minecraft:nether_bridge"
+    inverted_conditions:
+      - is_combat: true
+
+  # =========================================================================
+  # WEATHER & CLIMATE ANOMALIES
+  # =========================================================================
+  - path: "minecraft:pokemon/rse_heavy_rain"
+    conditions:
+      weather: "thunder"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_drought"
+    conditions:
+      biome: "minecraft:soul_sand_valley"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_frozen_city"
+    conditions:
+      biome: "minecraft:soul_sand_valley"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_opelucid_city_attacked"
+    conditions:
+      biome: "minecraft:soul_sand_valley"
+    inverted_conditions:
+      - is_combat: true
+
+  # Magmatic Volcano environments
+  - path: "minecraft:pokemon/rse_mt._chimney"
+    conditions:
+      any:
+        - biome: "minecraft:basalt_deltas"
+        - biome: "minecraft:nether_wastes"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_stark_mountain"
+    conditions:
+      any:
+        - biome: "minecraft:basalt_deltas"
+        - biome: "minecraft:nether_wastes"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_reversal_mountain_black"
+    conditions:
+      any:
+        - biome: "minecraft:basalt_deltas"
+        - biome: "minecraft:nether_wastes"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_reversal_mountain_white"
+    conditions:
+      any:
+        - biome: "minecraft:basalt_deltas"
+        - biome: "minecraft:nether_wastes"
+    inverted_conditions:
+      - is_combat: true
+
+  # Nautical / Shipwreck Vessels
+  - path: "minecraft:pokemon/rse_abandoned_ship"
+    conditions:
+      structure: "minecraft:shipwreck"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_oceanic_museum"
+    conditions:
+      structure: "minecraft:shipwreck"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_s.s._aqua"
+    conditions:
+      structure: "minecraft:shipwreck"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_olivine_lighthouse"
+    conditions:
+      structure: "minecraft:shipwreck"
+    inverted_conditions:
+      - is_combat: true
+
+  # Mountain Summits
+  - path: "minecraft:pokemon/dppt_mt._coronet"
+    conditions:
+      any:
+        - biome: "minecraft:jagged_peaks"
+        - biome: "minecraft:stony_peaks"
+    inverted_conditions:
+      - is_combat: true
+
+  # Mega Bridges (River / Over-water configurations)
+  - path: "minecraft:pokemon/bw_skyarrow_bridge"
+    conditions:
+      biome: "minecraft:river"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_driftveil_drawbridge"
+    conditions:
+      biome: "minecraft:river"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_tubeline_bridge"
+    conditions:
+      biome: "minecraft:river"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_village_bridge"
+    conditions:
+      biome: "minecraft:river"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_marvelous_bridge"
+    conditions:
+      biome: "minecraft:river"
+    inverted_conditions:
+      - is_combat: true
+
+  # =========================================================================
+  # CAVERNS & SUBTERRANEAN SYSTEMS
+  # =========================================================================
+  - path: "minecraft:pokemon/rse_cave_of_origin"
+    conditions:
+      any:
+        - biome: "minecraft:lush_caves"
+        - biome: "minecraft:dripstone_caves"
+        - biome: "minecraft:deep_dark"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_mt._moon"
+    conditions:
+      any:
+        - biome: "minecraft:lush_caves"
+        - biome: "minecraft:dripstone_caves"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_chargestone_cave"
+    conditions:
+      any:
+        - biome: "minecraft:lush_caves"
+        - biome: "minecraft:deep_dark"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_dark_cave"
+    conditions:
+      any:
+        - biome: "minecraft:lush_caves"
+        - biome: "minecraft:dripstone_caves"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_union_cave"
+    conditions:
+      any:
+        - biome: "minecraft:lush_caves"
+        - biome: "minecraft:dripstone_caves"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_oreburgh_mine"
+    conditions:
+      any:
+        - biome: "minecraft:lush_caves"
+        - biome: "minecraft:dripstone_caves"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_cold_storage"
+    conditions:
+      any:
+        - biome: "minecraft:lush_caves"
+        - biome: "minecraft:dripstone_caves"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_mt._moon_square"
+    conditions:
+      any:
+        - biome: "minecraft:lush_caves"
+        - biome: "minecraft:dripstone_caves"
+    inverted_conditions:
+      - is_combat: true
+
+  # =========================================================================
+  # REVENUE & WILDERNESS ENVIRONMENT FALLBACKS (Lowest Overworld Priority)
+  # =========================================================================
+  - path: "minecraft:pokemon/rse_petalburg_woods"
+    conditions:
+      any:
+        - biome: "minecraft:dark_forest"
+        - biome: "minecraft:forest"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_viridian_forest"
+    conditions:
+      any:
+        - biome: "minecraft:dark_forest"
+        - biome: "minecraft:forest"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_eterna_forest"
+    conditions:
+      any:
+        - biome: "minecraft:dark_forest"
+        - biome: "minecraft:forest"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_lostlorn_forest"
+    conditions:
+      any:
+        - biome: "minecraft:dark_forest"
+        - biome: "minecraft:forest"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_route_119"
+    conditions:
+      any:
+        - biome: "minecraft:swamp"
+        - biome: "minecraft:mangrove_swamp"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_route_120"
+    conditions:
+      any:
+        - biome: "minecraft:swamp"
+        - biome: "minecraft:mangrove_swamp"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_210_day"
+    conditions:
+      any:
+        - biome: "minecraft:swamp"
+        - biome: "minecraft:mangrove_swamp"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_route_22_summer"
+    conditions:
+      any:
+        - biome: "minecraft:swamp"
+        - biome: "minecraft:mangrove_swamp"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_a_surprise_at_the_lake"
+    conditions:
+      any:
+        - biome: "minecraft:swamp"
+        - biome: "minecraft:mangrove_swamp"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_216_day"
+    conditions:
+      any:
+        - biome: "minecraft:snowy_plains"
+        - biome: "minecraft:grove"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_snowpoint_city_day"
+    conditions:
+      any:
+        - biome: "minecraft:snowy_plains"
+        - biome: "minecraft:grove"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_route_111"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_228_day"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_route_4_summer"
+    conditions:
+      any:
+        - biome: "minecraft:desert"
+        - biome: "minecraft:badlands"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_3"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_30"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_34"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_205_day"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_209_day"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_route_6_summer"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_11"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_24"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_38"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_42"
+    conditions:
+      any:
+        - biome: "minecraft:meadow"
+        - biome: "minecraft:sunflower_plains"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_route_110"
+    conditions:
+      any:
+        - biome: "minecraft:beach"
+        - biome: "minecraft:stony_shore"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_47"
+    conditions:
+      any:
+        - biome: "minecraft:beach"
+        - biome: "minecraft:stony_shore"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_valor_lakefront_day"
+    conditions:
+      any:
+        - biome: "minecraft:beach"
+        - biome: "minecraft:stony_shore"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_route_10"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:windswept_hills"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_route_12_summer"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:windswept_hills"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_route_23"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:windswept_hills"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_225_day"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:windswept_hills"
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_26"
+    conditions:
+      any:
+        - biome: "minecraft:savanna"
+        - biome: "minecraft:windswept_hills"
+    inverted_conditions:
+      - is_combat: true
+
+  # =========================================================================
+  # TRUE AMBIENT GENERAL FALLBACKS (Empty Conditions Run Last)
+  # =========================================================================
+  - path: "minecraft:pokemon/rse_route_101"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_route_104"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_201_day"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_203_day"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_1"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/hgss_route_29"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_route_1"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw_route_2_summer"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/rse_route_113"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_route_206_day"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/bw2_road_to_reversal_mountain"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
+
+  - path: "minecraft:pokemon/dppt_contest_hall"
+    conditions: {}
+    inverted_conditions:
+      - is_combat: true
