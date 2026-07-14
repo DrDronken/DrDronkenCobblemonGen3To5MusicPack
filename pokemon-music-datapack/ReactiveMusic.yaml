@@ -18,44 +18,23 @@ entries:
     songs:
       - "rse_heavy_rain"
 
+  # ==========================================
+  # SUBMERGED & UNDERWATER (HIGH PRIORITY)
+  # ==========================================
+
+  - events: [ "UNDERWATER" ]
+    songs:
+      - "rse_dive"
+
 
   # ==========================================
-  # HIGH PRIORITY LEGENDARY MONUMENT STRUCTURES
+  # The end
   # ==========================================
 
-  - events: [ "STRUCTURE=legendarymonuments:bell_tower" ]
-    songs:
-      - "hgss_bell_tower"
-
-  - events: [ "STRUCTURE=legendarymonuments:lugia_temple" ]
-    songs:
-      - "hgss_surf"
-
-  - events: [ "STRUCTURE=legendarymonuments:spear_pillar" ]
-    songs:
-      - "dppt_spear_pillar"
-
-  - events: [ "STRUCTURE=legendarymonuments:distortion_nexus" ]
+  - events: [ "DIM=THE_END" ]
+    forceStopMusicOnValid: true
     songs:
       - "dppt_distortion_world"
-
-  - events: [ "STRUCTURE=legendarymonuments:throneroom_of_knightly_heroes" ]
-    songs:
-      - "bw2_battle_swords_of_justice"
-
-  - events: [ "STRUCTURE=legendarymonuments:reawakening_sanctum" ]
-    songs:
-      - "bw_battle_legendary_pokémon"
-
-  - events: [ "STRUCTURE=legendarymonuments:ruin_shrine" ]
-    songs:
-      - "bw_relic_castle"
-
-  - events: [ "STRUCTURE=legendarymonuments:lake_shrine" ]
-    songs:
-      - "dppt_lake_caverns"
-
-
   # ==========================================
   # BIOME-SPECIFIC VILLAGE MUSIC (VILLAGE)
   # ==========================================
@@ -117,6 +96,7 @@ entries:
       - "rse_petalburg_city"
       - "rse_rustboro_city"
       - "dppt_eterna_city_day"
+      - "rse_fortree_city"
       - "bw_striaton_city"
 
   # 6. Plains / Meadows Standard Settlements (Plains Archetypes)
@@ -136,6 +116,7 @@ entries:
       - "rse_verdanturf_town"
       - "bw_nuvema_town"
       - "bw_accumula_town"
+      - "rse_ever_grande_city"
       - "dppt_twinleaf_town_day"
       - "dppt_floaroma_town_day"
       - "hgss_cherrygrove_city"
@@ -183,19 +164,7 @@ entries:
 
   - events: [ "STRUCTURE=minecraft:stronghold" ]
     songs:
-      - "dppt_pokemon_gym"
       - "hgss_burned_tower"
-
-  - events: [ "STRUCTURE=minecraft:nether_bridge" ]
-    songs:
-      - "rse_victory_road"
-      - "dppt_victory_road"
-      - "hgss_victory_road"
-      - "bw_victory_road"
-      - "bw_pokemon_league"
-      - "dppt_pokemon_league_day"
-      - "dppt_decisive_battle_pokemon_league"
-      - "rse_ever_grande_city"
 
   - events: [ "STRUCTURE=minecraft:shipwreck" ]
     songs:
@@ -211,18 +180,18 @@ entries:
   - events: [ "BIOME=soul_sand_valley" ]
     songs:
       - "rse_drought"
-      - "bw2_opelucid_city_attacked"
       - "bw_relic_castle"
       - "bw_abyssal_ruins"
+      - "dppt_old_chateau"
 
-  - events: [ "BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER" ]
+  - events:
+      - "BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER || BIOME=terralith:volcanic_peaks || BIOME=terralith:volcanic_crater || BIOME=terralith:caldera || BIOME=terralith:yellowstone || BIOME=terralith:cave/mantle_caves"
     songs:
       - "rse_mt._chimney"
       - "dppt_stark_mountain"
-      - "bw2_reversal_mountain_black"
-      - "bw2_reversal_mountain_white"
-
-  - events: [ "BIOMETAG=IS_MOUNTAIN" ]
+      - "rse_mt._pyre"
+      - "bw_the_pokemon_league_besieged"
+  - events: [ "BIOMETAG=IS_MOUNTAIN || UNDERGROUND" ]
     songs:
       - "dppt_mt._coronet"
       - "dppt_spear_pillar"
@@ -237,6 +206,15 @@ entries:
       - "bw2_road_to_reversal_mountain"
       - "hgss_dark_cave"
       - "hgss_union_cave"
+      - "bw2_reversal_mountain_black"
+      - "bw2_reversal_mountain_white"
+      - "rse_victory_road"
+      - "dppt_victory_road"
+      - "hgss_victory_road"
+      - "bw_victory_road"
+      - "bw2_underground_ruins"
+      - "bw_chargestone_cave"
+      - "ddpt_oreburgh_mine"
 
   - events: [ "BIOMETAG=IS_OCEAN" ]
     songs:
@@ -260,16 +238,9 @@ entries:
       - "bw_lostlorn_forest"
       - "bw_musical_forest_stroll"
       - "bw_white_forest"
-      - "rse_fortree_city"
-      - "rse_route_104"
-      - "rse_route_113"
 
   - events: [ "BIOMETAG=IS_SWAMP" ]
     songs:
-      - "rse_route_119"
-      - "rse_route_120"
-      - "dppt_route_210_day"
-      - "bw2_route_22_summer"
       - "dppt_lake"
 
   - events: [ "BIOMETAG=IS_TAIGA || BIOME=snowy_plains || BIOME=grove" ]
@@ -277,15 +248,20 @@ entries:
       - "dppt_route_216_day"
       - "dppt_snowpoint_city_day"
       - "bw2_frozen_city"
+      - "bw_cold_storage"
 
   - events: [ "BIOMETAG=IS_DESERT || BIOMETAG=IS_BADLANDS" ]
     songs:
       - "rse_route_111"
+      - "rse_route_113"
       - "dppt_route_228_day"
       - "bw_route_4_summer"
+      - "bw_route_10"
 
   - events: [ "BIOME=meadow || BIOME=sunflower_plains || BIOME=plains || BIOMETAG=IS_PLAINS" ]
     songs:
+      - "rse_route_101"
+      - "rse_route_104"
       - "hgss_route_3"
       - "hgss_route_30"
       - "hgss_route_34"
@@ -308,10 +284,14 @@ entries:
       - "rse_surf"
       - "dppt_surf"
 
-  - events: [ "BIOMETAG=IS_SAVANNA || BIOME=windswept_hills" ]
+  - events: [ "BIOMETAG=IS_SAVANNA || BIOME=windswept_hills || BIOMETAG=IS_SWAMP" ]
     songs:
       - "bw_route_10"
       - "bw_route_12_summer"
       - "bw2_route_23"
       - "dppt_route_225_day"
       - "hgss_route_26"
+      - "rse_route_119"
+      - "rse_route_120"
+      - "dppt_route_210_day"
+      - "bw2_route_22_summer"
