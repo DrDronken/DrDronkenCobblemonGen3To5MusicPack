@@ -88,6 +88,13 @@ entries:
       - "bw2_lentimas_town"
       - "hgss_lavender_town"
 
+  - events: [ "VILLAGE", "BIOMETAG=IS_FLORAL || BIOME=sunflower_plains" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      "dppt_floaroma_town_day"
+
+
   # 4. Mountainous / Highland Settlements
   - events: [ "VILLAGE", "BIOMETAG=IS_MOUNTAIN || BIOME=windswept_hills" ]
     forceStopMusicOnValid: true
@@ -119,9 +126,10 @@ entries:
       - "dppt_eterna_city_day"
       - "rse_fortree_city"
       - "bw_striaton_city"
+      - "rse_ever_grande_city"
 
   # 6. Plains / Meadows Standard Settlements (Plains Archetypes)
-  - events: [ "VILLAGE", "BIOME=forest || BIOME=plains || BIOME=sunflower_plains || BIOMETAG=IS_PLAINS || BIOME=meadow" ]
+  - events: [ "VILLAGE", "BIOME=forest || BIOME=plains || BIOMETAG=IS_PLAINS || BIOME=meadow" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -141,7 +149,6 @@ entries:
       - "bw_accumula_town"
       - "rse_ever_grande_city"
       - "dppt_twinleaf_town_day"
-      - "dppt_floaroma_town_day"
       - "hgss_cherrygrove_city"
       - "hgss_pallet_town"
       - "hgss_new_bark_town"
@@ -155,6 +162,12 @@ entries:
     songs:
       - "rse_oldale_town"
       - "bw_accumula_town"
+      - "rse_littleroot_town"
+      - "rse_oldale_town"
+      - "dppt_twinleaf_town_day"
+      - "hgss_pallet_town"
+      - "hgss_new_bark_town"
+      - "dppt_sandgem_town_day"
 
 
   # ==========================================
@@ -274,12 +287,6 @@ entries:
       - "bw_tubeline_bridge"
       - "bw_village_bridge"
       - "bw_marvelous_bridge"
-
-  - events: [ "BIOMETAG=IS_FLORAL" ]
-    forceStopMusicOnValid: true
-    forceStartMusicOnValid: true
-    songs:
-      "dppt_floaroma_town_day"
 
   - events: [ "BIOMETAG=IS_FOREST" ]
     forceStopMusicOnValid: true
