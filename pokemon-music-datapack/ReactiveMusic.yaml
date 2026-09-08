@@ -5,8 +5,8 @@ description: "A configuration for the Pokémon soundtracks of several generation
 
 credits: ""
 
-musicSwitchSpeed: NORMAL
-musicDelayLength: NORMAL
+musicSwitchSpeed: INSTANT
+musicDelayLength: SHORT
 
 entries:
 
@@ -14,7 +14,9 @@ entries:
   # GLOBAL WEATHER OVERRIDES (HIGH PRIORITY)
   # ==========================================
 
-  - events: [ "WEATHER=THUNDER" ]
+  - events: [ "STORM" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_heavy_rain"
 
@@ -23,6 +25,8 @@ entries:
   # ==========================================
 
   - events: [ "UNDERWATER" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_dive"
 
@@ -33,6 +37,7 @@ entries:
 
   - events: [ "DIM=THE_END" ]
     forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "dppt_distortion_world"
   # ==========================================
@@ -41,6 +46,8 @@ entries:
 
   # 1. Snowy / Ice / Taiga Settlements
   - events: [ "VILLAGE", "BIOMETAG=IS_TAIGA || BIOMETAG=IS_SNOWY || BIOME=snowy_plains" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "dppt_snowpoint_city_day"
       - "bw2_frozen_city"
@@ -48,6 +55,8 @@ entries:
 
   # 2. Coastal / Ocean / Beach Settlements
   - events: [ "VILLAGE", "BIOMETAG=IS_OCEAN || BIOMETAG=IS_BEACH" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_dewford_town"
       - "rse_lilycove_city"
@@ -62,6 +71,8 @@ entries:
 
   # 3. Desert / Arid / Badlands Settlements
   - events: [ "VILLAGE", "BIOMETAG=IS_BADLANDS || BIOMETAG=IS_DESERT || BIOME=desert" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "hgss_ecruteak_city"
       - "hgss_cianwood_city"
@@ -73,6 +84,8 @@ entries:
 
   # 4. Mountainous / Highland Settlements
   - events: [ "VILLAGE", "BIOMETAG=IS_MOUNTAIN || BIOME=windswept_hills" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_fallarbor_town"
       - "hgss_violet_city"
@@ -92,6 +105,8 @@ entries:
 
   # 5. Forest / Swamp Woodland Settlements
   - events: [ "VILLAGE", "BIOMETAG=IS_FOREST || BIOMETAG=IS_SWAMP" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_petalburg_city"
       - "rse_rustboro_city"
@@ -101,6 +116,8 @@ entries:
 
   # 6. Plains / Meadows Standard Settlements (Plains Archetypes)
   - events: [ "VILLAGE", "BIOME=forest || BIOME=plains || BIOME=sunflower_plains || BIOMETAG=IS_PLAINS || BIOME=meadow" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "hgss_goldenrod_city"
       - "hgss_celadon_city"
@@ -127,6 +144,8 @@ entries:
 
   # 7. Global / Dynamic Fallback Village Catch-all
   - events: [ "VILLAGE" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_oldale_town"
       - "bw_accumula_town"
@@ -136,41 +155,41 @@ entries:
   # DUNGEON & SPECIALIZED STRUCTURES
   # ==========================================
 
-  - events: [ "STRUCTURE=minecraft:woodland_mansion" ]
-    songs:
-      - "bw_n_s_castle"
-      - "bw2_n_s_castle"
-      - "bw_dragonspiral_tower"
-      - "bw_dragonspiral_tower_top_floor"
-      - "bw_the_pokemon_league_besieged"
-      - "bw_the_pokemon_league_besieged_alt"
+  # - events: [ "STRUCTURE=minecraft:woodland_mansion" ]
+  #   songs:
+  #     - "bw_n_s_castle"
+  #     - "bw2_n_s_castle"
+  #     - "bw_dragonspiral_tower"
+  #     - "bw_dragonspiral_tower_top_floor"
+  #     - "bw_the_pokemon_league_besieged"
+  #     - "bw_the_pokemon_league_besieged_alt"
 
-  - events: [ "STRUCTURE=minecraft:desert_pyramid || STRUCTURE=minecraft:jungle_pyramid" ]
-    songs:
-      - "hgss_ruins_of_alph"
-      - "hgss_sinjoh_ruins"
-      - "bw_relic_castle"
-      - "bw_dreamyard"
-      - "bw_abyssal_ruins"
-      - "bw2_underground_ruins"
-      - "bw2_cave_of_being"
+  # - events: [ "STRUCTURE=minecraft:desert_pyramid || STRUCTURE=minecraft:jungle_pyramid" ]
+  #   songs:
+  #     - "hgss_ruins_of_alph"
+  #     - "hgss_sinjoh_ruins"
+  #     - "bw_relic_castle"
+  #     - "bw_dreamyard"
+  #     - "bw_abyssal_ruins"
+  #     - "bw2_underground_ruins"
+  #     - "bw2_cave_of_being"
 
-  - events: [ "STRUCTURE=minecraft:pillager_outpost" ]
-    songs:
-      - "hgss_sprout_tower"
-      - "hgss_bell_tower"
-      - "rse_high_ambient_pyre"
-      - "rse_mt._pyre"
+  # - events: [ "STRUCTURE=minecraft:pillager_outpost" ]
+  #   songs:
+  #     - "hgss_sprout_tower"
+  #     - "hgss_bell_tower"
+  #     - "rse_high_ambient_pyre"
+  #     - "rse_mt._pyre"
 
-  - events: [ "STRUCTURE=minecraft:stronghold" ]
-    songs:
-      - "hgss_burned_tower"
+  # - events: [ "STRUCTURE=minecraft:stronghold" ]
+  #   songs:
+  #     - "hgss_burned_tower"
 
-  - events: [ "STRUCTURE=minecraft:shipwreck" ]
-    songs:
-      - "rse_abandoned_ship"
-      - "rse_oceanic_museum"
-      - "hgss_s.s._aqua"
+  # - events: [ "STRUCTURE=minecraft:shipwreck" ]
+  #   songs:
+  #     - "rse_abandoned_ship"
+  #     - "rse_oceanic_museum"
+  #     - "hgss_s.s._aqua"
 
 
   # ==========================================
@@ -178,20 +197,25 @@ entries:
   # ==========================================
 
   - events: [ "BIOME=soul_sand_valley" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_drought"
       - "bw_relic_castle"
       - "bw_abyssal_ruins"
       - "dppt_old_chateau"
 
-  - events:
-      - "BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER || BIOME=terralith:volcanic_peaks || BIOME=terralith:volcanic_crater || BIOME=terralith:caldera || BIOME=terralith:yellowstone || BIOME=terralith:cave/mantle_caves"
+  - events: ["BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER || BIOME=terralith:volcanic_peaks || BIOME=terralith:volcanic_crater || BIOME=terralith:caldera || BIOME=terralith:yellowstone"]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_mt._chimney"
       - "dppt_stark_mountain"
       - "rse_mt._pyre"
       - "bw_the_pokemon_league_besieged"
-  - events: [ "BIOMETAG=IS_MOUNTAIN || UNDERGROUND" ]
+  - events: [ "BIOMETAG=IS_MOUNTAIN || UNDERGROUND || DEEP_UNDERGROUND" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "dppt_mt._coronet"
       - "dppt_spear_pillar"
@@ -214,15 +238,19 @@ entries:
       - "bw_victory_road"
       - "bw2_underground_ruins"
       - "bw_chargestone_cave"
-      - "ddpt_oreburgh_mine"
+      - "dppt_oreburgh_mine"
 
-  - events: [ "BIOMETAG=IS_OCEAN" ]
+  - events: [ "BIOMETAG=IS_RIVER || BIOME=river || BIOMETAG=IS_OCEAN" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_surf"
       - "dppt_surf"
       - "hgss_surf"
 
-  - events: [ "BIOMETAG=IS_RIVER || BIOME=river" ]
+  - events: [ "HIGH_UP" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "bw_skyarrow_bridge"
       - "bw_driftveil_drawbridge"
@@ -231,6 +259,8 @@ entries:
       - "bw_marvelous_bridge"
 
   - events: [ "BIOMETAG=IS_FOREST" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_petalburg_woods"
       - "hgss_viridian_forest"
@@ -240,10 +270,14 @@ entries:
       - "bw_white_forest"
 
   - events: [ "BIOMETAG=IS_SWAMP" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "dppt_lake"
 
   - events: [ "BIOMETAG=IS_TAIGA || BIOME=snowy_plains || BIOME=grove" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "dppt_route_216_day"
       - "dppt_snowpoint_city_day"
@@ -251,6 +285,8 @@ entries:
       - "bw_cold_storage"
 
   - events: [ "BIOMETAG=IS_DESERT || BIOMETAG=IS_BADLANDS" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_route_111"
       - "rse_route_113"
@@ -259,6 +295,8 @@ entries:
       - "bw_route_10"
 
   - events: [ "BIOME=meadow || BIOME=sunflower_plains || BIOME=plains || BIOMETAG=IS_PLAINS" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_route_101"
       - "rse_route_104"
@@ -277,6 +315,8 @@ entries:
       - "hgss_route_29"
 
   - events: [ "BIOMETAG=IS_BEACH" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "rse_route_110"
       - "hgss_route_47"
@@ -285,6 +325,8 @@ entries:
       - "dppt_surf"
 
   - events: [ "BIOMETAG=IS_SAVANNA || BIOME=windswept_hills || BIOMETAG=IS_SWAMP" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
     songs:
       - "bw_route_10"
       - "bw_route_12_summer"
