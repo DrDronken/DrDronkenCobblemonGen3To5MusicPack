@@ -1,21 +1,29 @@
 const fs = require("fs");
 const path = require("path");
-const archiver = require("archiver");
+const { ZipArchive } = require("archiver");
+const YAML = require("yaml");
 
-const yaml = fs.readFileSync("ReactiveMusic.yaml", "utf8");
+const yaml = fs.readFileSync(
+	"./pokemon-music-datapack/ReactiveMusic.yaml",
+	"utf8"
+);
 
-// Extract songs from YAML
-const songsRegex = /^[ \t]+songs:\s*\n((?:[ \t]+(?:-\s*)?"[^"\n]+"\s*\n?)+)/gm;
+// Parse YAML properly
+const config = YAML.parse(yaml);
 
+// Collect all songs from every entry
 const unique_files = [];
 
-for (const match of yaml.matchAll(songsRegex)) {
-	const block = match[1];
+for (const entry of config.entries ?? []) {
+	if (!entry.songs) continue;
 
-	const entries = [...block.matchAll(/"([^"\n]+)"/g)]
-		.map(m => m[1]);
-
-	unique_files.push(...entries);
+	if (Array.isArray(entry.songs)) {
+		unique_files.push(...entry.songs);
+	} else if (typeof entry.songs === "string") {
+		// Handles a single song written as:
+		// songs: "song_name"
+		unique_files.push(entry.songs);
+	}
 }
 
 // Remove duplicates
@@ -30,6 +38,7 @@ const packDir = path.join(
 );
 
 const musicDir = path.join(packDir, "music");
+
 const outputZip = path.join(
 	__dirname,
 	"DrDronkenCobblemonMusicPack.zip"
@@ -37,7 +46,8 @@ const outputZip = path.join(
 
 // Create ZIP
 const output = fs.createWriteStream(outputZip);
-const archive = archiver("zip", {
+
+const archive = new ZipArchive({
 	zlib: { level: 9 }
 });
 
@@ -52,13 +62,19 @@ archive.on("error", err => {
 
 archive.pipe(output);
 
-// Add everything from pokemon-music-datapack EXCEPT music
-for (const entry of fs.readdirSync(packDir)) {
-	if (entry === "music") continue;
+// Add everything from pokemon-music-datapack EXCEPT music/
+for (const entry of fs.readdirSync(packDir, { withFileTypes: true })) {
+	if (entry.name === "music") continue;
 
-	const fullPath = path.join(packDir, entry);
+	const fullPath = path.join(packDir, entry.name);
 
-	archive.directory(fullPath, entry);
+	if (entry.isDirectory()) {
+		archive.directory(fullPath, entry.name);
+	} else {
+		archive.file(fullPath, {
+			name: entry.name
+		});
+	}
 }
 
 // Add only the referenced music files
@@ -66,9 +82,7 @@ let added = 0;
 let missing = 0;
 
 for (const file of uniqueFiles) {
-	// YAML entries may or may not contain .mp3
 	const filename = `${file}.mp3`;
-
 	const fullPath = path.join(musicDir, filename);
 
 	if (fs.existsSync(fullPath)) {
