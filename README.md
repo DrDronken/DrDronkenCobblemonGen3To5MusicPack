@@ -1,2 +1,2 @@
 # DrDronkenCobblemonMusicPack
-Music pack for Cobblemon, built on DCME
+Music pack for Cobblemon, built on Reactive Music
