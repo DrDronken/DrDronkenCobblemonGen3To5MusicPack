@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "archiver": "^8.0.0",
     "fs-extra": "^11.3.5",
     "music-metadata": "^11.13.0"
   },
