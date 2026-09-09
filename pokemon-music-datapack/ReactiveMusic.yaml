@@ -19,7 +19,7 @@ entries:
     songs:
       - "bw_abyssal_ruins"
 
-  - events: ["UNDERGROUND", "UNDERWATER"]
+  - events: ["UNDERGROUND || DEEP_UNDERGROUND || BIOMETAG=IS_CAVE", "UNDERWATER"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -46,7 +46,6 @@ entries:
     forceStartMusicOnValid: true
     songs:
       - "dppt_route_216_day"
-      - "bw_cold_storage"
 
   # ==========================================
   # The end
@@ -64,7 +63,7 @@ entries:
       [
         "VILLAGE",
         "DAY",
-        "BLOCK=cobblemon:healing_station,1",
+        "BLOCK=cobblemon:healing_machine,1",
         "BLOCK=cobblemon:pc,1",
       ]
     forceStopMusicOnValid: true
@@ -76,7 +75,7 @@ entries:
       [
         "VILLAGE",
         "NIGHT",
-        "BLOCK=cobblemon:healing_station,1",
+        "BLOCK=cobblemon:healing_machine,1",
         "BLOCK=cobblemon:pc,1",
       ]
     forceStopMusicOnValid: true
@@ -85,11 +84,7 @@ entries:
       - "dppt_pokemon_center_night"
 
   # 1. Snowy / Ice / Taiga Settlements
-  - events:
-      [
-        "VILLAGE",
-        "BIOMETAG=IS_TAIGA || BIOME=snowy_plains || BIOME=grove || BIOMETAG=IS_SNOWY || BIOMETAG=IS_ICY",
-      ]
+  - events: [ "VILLAGE", "BIOME=snowy_plains || BIOME=grove || BIOMETAG=IS_SNOWY || BIOMETAG=IS_ICY || BIOME=FROZEN_RIVER"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -133,7 +128,8 @@ entries:
   - events: ["VILLAGE", "BIOMETAG=IS_FLORAL || BIOME=sunflower_plains"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
-    songs: "dppt_floaroma_town_day"
+    songs:
+      - "dppt_floaroma_town_day"
 
   # 4. Mountainous / Highland Settlements
   - events: ["VILLAGE", "BIOMETAG=IS_MOUNTAIN || BIOME=windswept_hills"]
@@ -156,7 +152,7 @@ entries:
       - "bw_opelucid_city_white"
 
   # 5. Forest / Swamp Woodland Settlements
-  - events: ["VILLAGE", "BIOMETAG=IS_FOREST || BIOMETAG=IS_SWAMP"]
+  - events: ["VILLAGE", "BIOMETAG=IS_FOREST || BIOMETAG=IS_SWAMP || BIOMETAG=IS_TAIGA"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -171,7 +167,7 @@ entries:
   - events:
       [
         "VILLAGE",
-        "BIOME=forest || BIOME=plains || BIOMETAG=IS_PLAINS || BIOME=meadow",
+        "BIOME=plains || BIOMETAG=IS_PLAINS || BIOME=meadow",
       ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
@@ -265,10 +261,7 @@ entries:
       - "bw_abyssal_ruins"
       - "dppt_old_chateau"
 
-  - events:
-      [
-        "BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER || BIOME=terralith:volcanic_peaks || BIOME=terralith:volcanic_crater || BIOME=terralith:caldera || BIOME=terralith:yellowstone",
-      ]
+  - events: ["BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER || BIOME=terralith:volcanic_peaks || BIOME=terralith:volcanic_crater || BIOME=terralith:caldera"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -283,7 +276,7 @@ entries:
 
   - events:
       [
-        "BIOMETAG=IS_MOUNTAIN || BIOMETAG=IS_MOUNTAIN_PEAK || BIOMETAG=IS_MOUNTAIN_SLOPE",
+        "BIOMETAG=IS_MOUNTAIN || BIOMETAG=IS_MOUNTAIN_PEAK || BIOMETAG=IS_MOUNTAIN_SLOPE"
       ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
@@ -299,7 +292,7 @@ entries:
       - "rse_mt._pyre"
       - "rse_mt._pyre_exterior"
 
-  - events: ["UNDERGROUND || DEEP_UNDERGROUND"]
+  - events: ["UNDERGROUND || DEEP_UNDERGROUND || BIOMETAG=IS_CAVE"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -318,7 +311,7 @@ entries:
       - "bw_chargestone_cave"
       - "dppt_oreburgh_mine"
 
-  - events: ["BIOMETAG=IS_RIVER || BIOME=river || BIOMETAG=IS_OCEAN"]
+  - events: ["BIOMETAG=IS_RIVER || BIOME=river || BIOMETAG=IS_OCEAN || BOAT"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -328,7 +321,7 @@ entries:
       - "bw_surf"
       - "rse_crossing_the_sea"
 
-  - events: ["BIOMETAG=IS_FOREST"]
+  - events: ["BIOMETAG=IS_FOREST || BIOMETAG=IS_SWAMP || BIOMETAG=IS_TAIGA"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -340,10 +333,7 @@ entries:
       - "bw_white_forest"
       - "dppt_lake"
 
-  - events:
-      [
-        "BIOMETAG=IS_TAIGA || BIOME=snowy_plains || BIOME=grove || BIOMETAG=IS_SNOWY || BIOMETAG=IS_ICY || SNOW",
-      ]
+  - events: [ "BIOME=snowy_plains || BIOME=grove || BIOMETAG=IS_SNOWY || BIOMETAG=IS_ICY || BIOME=FROZEN_RIVER" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -375,10 +365,7 @@ entries:
       - "bw_route_4_summer"
       - "bw_route_10"
 
-  - events:
-      [
-        "BIOME=meadow || BIOME=sunflower_plains || BIOME=plains || BIOMETAG=IS_PLAINS",
-      ]
+  - events: [ "BIOME=meadow || BIOME=sunflower_plains || BIOME=plains || BIOMETAG=IS_PLAINS" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -406,10 +393,7 @@ entries:
       - "hgss_route_47"
       - "dppt_valor_lakefront_day"
 
-  - events:
-      [
-        "BIOMETAG=IS_SAVANNA || BIOME=windswept_hills || BIOMETAG=IS_SWAMP || BIOMETAG=IS_LUSH",
-      ]
+  - events: [ "BIOMETAG=IS_SAVANNA || BIOME=windswept_hills || BIOMETAG=IS_SWAMP || BIOMETAG=IS_LUSH || BIOME=terralith:yellowstone" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
