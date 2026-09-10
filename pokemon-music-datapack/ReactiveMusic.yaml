@@ -273,85 +273,85 @@ entries:
   #     - "rse_oceanic_museum"
   #     - "hgss_s.s._aqua"
 
-  - events: [ "BLOCK=legendary_monuments:palkia_statue,1 || BLOCK=legendary_monuments:dialga_statue,1" ]
+  - events: [ "BLOCK=legendarymonuments:palkia_pedestal,1 || BLOCK=legendarymonuments:dialga_pedestal,1" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "dppt_spear_pillar"
 
-  - events: [ "BLOCK=legendary_monuments:giratina_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:giratina_pedestal,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "dppt_giratina_appears"
 
-  - events: [ "BLOCK=legendary_monuments:azelf_statue,1 || BLOCK=legendary_monuments:mesprit_statue,1 || BLOCK=legendary_monuments:uxie_statue,1" ]
+  - events: [ "BLOCK=legendarymonuments:azelf_pedestal,1 || BLOCK=legendarymonuments:mesprit_pedestal,1 || BLOCK=legendarymonuments:uxie_pedestal,1" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "dppt_lake_caverns"
 
-  - events: [ "BLOCK=legendary_monuments:arceus_statue,1" ]
+  - events: [ "BLOCK=legendarymonuments:arceus_pedestal,1" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "dppt_hall_of_origin"
 
-  - events: [ "BLOCK=legendary_monuments:regigigas_statue,1" ]
+  - events: [ "BLOCK=legendarymonuments:regigigas_lock,1" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "dppt_eterna_forest" #what were they thinking
 
-  - events: [ "BLOCK=legendary_monuments:deoxys_statue,1" ]
+  - events: [ "BLOCK=legendarymonuments:deoxys_pedestal,1" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "frlg_deoxys_appearance"
 
-  - events: [ "BLOCK=legendary_monuments:regirock_statue,1 || BLOCK=legendary_monuments:regice_statue,1 || BLOCK=legendary_monuments:registeel_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:regirock_lock,1 || BLOCK=legendarymonuments:regice_lock,1 || BLOCK=legendarymonuments:registeel_lock,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "rse_sealed_chamber"
 
-  - events: [ "BLOCK=legendary_monuments:cresellia_statue,1 || BLOCK=legendary_monuments:darkrai_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:cresellia_pedestal,1 || BLOCK=legendarymonuments:darkrai_pedestal,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "dppt_old_chateau"
 
-  - events: [ "BLOCK=legendary_monuments:groudon_statue,1 || BLOCK=legendary_monuments:kyogre_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:groudon_pedestal,1 || BLOCK=legendarymonuments:kyogre_pedestal,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "rse_cave_of_origin"
 
-  - events: [ "BLOCK=legendary_monuments:rayquaza_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:rayquaza_pedestal,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "rse_mt._chimney"
 
-  - events: [ "BLOCK=legendary_monuments:hooh_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:hooh_pedestal,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "hgss_bell_tower"
 
-  - events: [ "BLOCK=legendary_monuments:lugia_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:lugia_pedestal,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "hgss_union_cave"
 
-  - events: [ "BLOCK=legendary_monuments:suicune_statue,1 || BLOCK=legendary_monuments:entei_statue,1 || BLOCK=legendary_monuments:raikou_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:suicune_pedestal,1 || BLOCK=legendarymonuments:entei_pedestal,1 || BLOCK=legendarymonuments:raikou_pedestal,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "hgss_burned_tower"
 
-  - events: [ "BLOCK=legendary_monuments:zekrom_statue,1 || BLOCK=legendary_monuments:reshirham_statue,1 || BLOCK=legendary_monuments:kyurem_statue,1 " ]
+  - events: [ "BLOCK=legendarymonuments:zekrom_pedestal,1 || BLOCK=legendarymonuments:reshirham_pedestal,1 || BLOCK=legendarymonuments:kyurem_pedestal,1 " ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
