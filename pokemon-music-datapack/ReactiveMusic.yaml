@@ -13,6 +13,23 @@ entries:
   # SUBMERGED & UNDERWATER (HIGH PRIORITY)
   # ==========================================
 
+  - events: ["MAIN_MENU"]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "bw_title_screen"
+      - "bw2_opening_movie"
+      - "bw2_title_screen"
+      - "dppt_opening"
+      - "frlg_opening_movie"
+      - "frlg_title_screen"
+      - "hgss_opening_movie"
+      - "hgss_title_screen"
+      - "rse_opening_movie"
+      - "rse_opening_movie_2"
+      - "rse_title_screen"
+
+
   - events: ["BIOMETAG=DEEP_OCEAN", "BLOCK=prismarine,200"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
@@ -46,6 +63,7 @@ entries:
     forceStartMusicOnValid: true
     songs:
       - "dppt_route_216_day"
+      - "dppt_route_216_night"
 
   # ==========================================
   # The end
@@ -103,6 +121,7 @@ entries:
       - "rse_slateport_city"
       - "hgss_vermilion_city"
       - "hgss_cinnabar_island"
+      - "frlg_cinnabar_island"
       - "dppt_canalave_city"
       - "bw_undella_town_summer"
       - "bw2_humilau_city"
@@ -129,6 +148,7 @@ entries:
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
+      - "rse_ever_grande_city"
       - "dppt_floaroma_town_day"
 
   # 4. Mountainous / Highland Settlements
@@ -161,7 +181,12 @@ entries:
       - "dppt_eterna_city_day"
       - "rse_fortree_city"
       - "bw_striaton_city"
-      - "rse_ever_grande_city"
+
+  - events: ["VILLAGE", "BIOME=soul_sand_valley"]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "frlg_lavender_town"
 
   # 6. Plains / Meadows Standard Settlements (Plains Archetypes)
   - events:
@@ -248,6 +273,90 @@ entries:
   #     - "rse_oceanic_museum"
   #     - "hgss_s.s._aqua"
 
+  - events: [ "BLOCK=legendary_monuments:palkia_statue,1 || BLOCK=legendary_monuments:dialga_statue,1" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "dppt_spear_pillar"
+
+  - events: [ "BLOCK=legendary_monuments:giratina_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "dppt_giratina_appears"
+
+  - events: [ "BLOCK=legendary_monuments:azelf_statue,1 || BLOCK=legendary_monuments:mesprit_statue,1 || BLOCK=legendary_monuments:uxie_statue,1" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "dppt_lake_caverns"
+
+  - events: [ "BLOCK=legendary_monuments:arceus_statue,1" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "dppt_hall_of_origin"
+
+  - events: [ "BLOCK=legendary_monuments:regigigas_statue,1" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "dppt_eterna_forest" #what were they thinking
+
+  - events: [ "BLOCK=legendary_monuments:deoxys_statue,1" ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "frlg_deoxys_appearance"
+
+  - events: [ "BLOCK=legendary_monuments:regirock_statue,1 || BLOCK=legendary_monuments:regice_statue,1 || BLOCK=legendary_monuments:registeel_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "rse_sealed_chamber"
+
+  - events: [ "BLOCK=legendary_monuments:cresellia_statue,1 || BLOCK=legendary_monuments:darkrai_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "dppt_old_chateau"
+
+  - events: [ "BLOCK=legendary_monuments:groudon_statue,1 || BLOCK=legendary_monuments:kyogre_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "rse_cave_of_origin"
+
+  - events: [ "BLOCK=legendary_monuments:rayquaza_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "rse_mt._chimney"
+
+  - events: [ "BLOCK=legendary_monuments:hooh_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "hgss_bell_tower"
+
+  - events: [ "BLOCK=legendary_monuments:lugia_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "hgss_union_cave"
+
+  - events: [ "BLOCK=legendary_monuments:suicune_statue,1 || BLOCK=legendary_monuments:entei_statue,1 || BLOCK=legendary_monuments:raikou_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "hgss_burned_tower"
+
+  - events: [ "BLOCK=legendary_monuments:zekrom_statue,1 || BLOCK=legendary_monuments:reshirham_statue,1 || BLOCK=legendary_monuments:kyurem_statue,1 " ]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "bw_dragonspiral_tower"
+
   # ==========================================
   # EXTREME ENVIRONMENTS & NATURAL WILDERNESS
   # ==========================================
@@ -260,6 +369,7 @@ entries:
       - "bw_relic_castle"
       - "bw_abyssal_ruins"
       - "dppt_old_chateau"
+      - "frlg_pokemon_tower"
 
   - events: ["BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER || BIOME=terralith:volcanic_peaks || BIOME=terralith:volcanic_crater || BIOME=terralith:caldera"]
     forceStopMusicOnValid: true
@@ -267,12 +377,14 @@ entries:
     songs:
       - "bw_the_pokemon_league_besieged"
       - "bw_n_dragon"
+      - "bw_n_castle"
       - "bw_theres_trouble"
       - "dppt_special_program_search_for_the_red_gyarados"
       - "dppt_stark_mountain"
       - "rse_mt._pyre"
       - "rse_mt._pyre_exterior"
       - "rse_mt._chimney"
+      - "frlg_pokemon_mansion"
 
   - events:
       [
@@ -297,12 +409,13 @@ entries:
     forceStartMusicOnValid: true
     songs:
       - "dppt_mt._coronet"
-      # - "dppt_spear_pillar"
+      - "dppt_oreburgh_gate" # And ravaged path
       - "hgss_mt._moon"
       - "hgss_olivine_lighthouse"
       - "hgss_ruins_of_alph"
       - "hgss_dark_cave" # same as mt. silver
       - "hgss_union_cave"
+      - "frlg_victory_road"
       - "rse_victory_road"
       - "dppt_victory_road"
       - "hgss_victory_road"
@@ -310,6 +423,7 @@ entries:
       - "bw2_underground_ruins"
       - "bw_chargestone_cave"
       - "dppt_oreburgh_mine"
+      - "frlg_mt._moon"
 
   - events: ["BIOMETAG=IS_RIVER || BIOME=river || BIOMETAG=IS_OCEAN || BOAT"]
     forceStopMusicOnValid: true
@@ -319,25 +433,61 @@ entries:
       - "dppt_surf"
       - "hgss_surf"
       - "bw_surf"
+      - "frlg_surf"
       - "rse_crossing_the_sea"
+      - "hgss_s.s._aqua"
 
-  - events: ["BIOMETAG=IS_FOREST || BIOMETAG=IS_SWAMP || BIOMETAG=IS_TAIGA"]
+  # - events: ["BIOMETAG=IS_FOREST || BIOMETAG=IS_SWAMP || BIOMETAG=IS_TAIGA"]
+  #   forceStopMusicOnValid: true
+  #   forceStartMusicOnValid: true
+  #   songs:
+  #     - "rse_petalburg_woods"
+  #     - "hgss_viridian_forest"
+  #     - "hgss_union_cave" # Apparently this theme plays in ilex forest, for crying out loud
+  #     - "dppt_eterna_forest"
+  #     - "bw_lostlorn_forest"
+  #     - "bw_musical_forest_stroll"
+  #     - "bw_white_forest"
+  #     - "dppt_lake"
+
+  - events: ["BIOMETAG=IS_FOREST || BIOMETAG=IS_TAIGA", "DAY"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
-      - "rse_petalburg_woods"
-      - "hgss_viridian_forest"
       - "dppt_eterna_forest"
-      - "bw_lostlorn_forest"
+      - "dppt_lake"
       - "bw_musical_forest_stroll"
       - "bw_white_forest"
-      - "dppt_lake"
+      - "bw_lostlorn_forest"
+      - "hgss_viridian_forest"
+
+  - events: ["BIOMETAG=IS_FOREST || BIOMETAG=IS_TAIGA", "NIGHT"]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "dppt_eterna_forest"
+      - "bw_lostlorn_forest"
+      # - "bw2_n_room" Arguably too spookky for this
+      # - "dppt_old_chateau"
+      - "frlg_viridian_forest"
+      - "hgss_union_cave"
+      - "rse_petalburg_woods"
+
+  - events: ["BIOMETAG=IS_SWAMP"]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "hgss_union_cave"
+      - "rse_petalburg_woods"
+      - "bw_lostlorn_forest"
 
   - events: [ "BIOME=snowy_plains || BIOME=grove || BIOMETAG=IS_SNOWY || BIOMETAG=IS_ICY || BIOME=FROZEN_RIVER" ]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
       - "dppt_route_216_day"
+      - "dppt_route_216_night"
+      - "dppt_mt._coronet" # Mostly a snowy area - i'd say this is valid
       - "bw2_frozen_city"
       - "bw_cold_storage" #same as twist mountain
       - "bw2_route_19_winter"
@@ -355,6 +505,13 @@ entries:
       - "dppt_mt._coronet"
       - "hgss_dark_cave" #Same theme as ice path and mt. silver
 
+#Additional desert track? Check if this works
+  - events: ["BIOMETAG=IS_DESERT || BIOMETAG=IS_BADLANDS || BIOME=DESERT", "DAY"]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "rse_drought"
+
   - events: ["BIOMETAG=IS_DESERT || BIOMETAG=IS_BADLANDS || BIOME=DESERT"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
@@ -369,21 +526,22 @@ entries:
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
-      - "rse_route_101"
-      - "rse_route_104"
+      - "bw_route_1"
+      - "bw_route_6_summer"
+      - "dppt_route_201_day"
+      - "dppt_route_205_day"
+      - "dppt_route_209_day"
       - "hgss_route_3"
       - "hgss_route_30"
       - "hgss_route_34"
-      - "dppt_route_205_day"
-      - "dppt_route_209_day"
-      - "bw_route_6_summer"
       - "hgss_route_11"
       - "hgss_route_24"
       - "hgss_route_38"
       - "hgss_route_42"
-      - "bw_route_1"
-      - "dppt_route_201_day"
       - "hgss_route_29"
+      - "hgss_national_park"
+      - "rse_route_101"
+      - "rse_route_104"
 
   - events: ["BIOMETAG=IS_BEACH"]
     forceStopMusicOnValid: true
