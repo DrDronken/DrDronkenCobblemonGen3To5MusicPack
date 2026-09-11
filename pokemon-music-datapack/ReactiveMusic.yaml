@@ -1,7 +1,7 @@
-﻿name: "Dr. Drunk Cobblemon Soundtrack"
+﻿name: "Dr. Drunk's Cobblemon gen 3-5 music pack"
 version: "1.0"
 author: "Dr. Dronken"
-description: "A configuration for the Pokémon soundtracks of several generation 3-5 pokemon games (RSE/HGSS/DPPt/BW/BW2)"
+description: "A configuration for the Pokémon soundtracks of several generation 3-5 pokemon games, namely RSE/HGSS/DPPt/BW/BW2 and some tracks from FRLG. For the best experience, use together with Legendary Monuments and Cobblebuilds."
 
 credits: ""
 
@@ -239,8 +239,8 @@ entries:
 
   # - events: [ "STRUCTURE=minecraft:woodland_mansion" ]
   #   songs:
-  #     - "bw_n_s_castle"
-  #     - "bw2_n_s_castle"
+  #     - "bw_n_castle"
+  #     - "bw2_n_castle"
   #     - "bw_dragonspiral_tower"
   #     - "bw_dragonspiral_tower_top_floor"
   #     - "bw_the_pokemon_league_besieged"
@@ -376,8 +376,9 @@ entries:
     forceStartMusicOnValid: true
     songs:
       - "dppt_old_chateau"
+      - "bw_relic_castle"
+      - "bw_abyssal_ruins"
       - "frlg_pokemon_tower"
-      - "bw_n_room"
 
   - events: ["BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER || BIOME=terralith:volcanic_peaks || BIOME=terralith:volcanic_crater || BIOME=terralith:caldera"]
     forceStopMusicOnValid: true
