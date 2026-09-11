@@ -69,7 +69,7 @@ entries:
   # The end
   # ==========================================
 
-  - events: ["DIM=THE_END"]
+  - events: ["DIM=THE_END || BLOCK=legendarymonuments:distortion_cobblestone,100"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
     songs:
@@ -371,6 +371,14 @@ entries:
       - "dppt_old_chateau"
       - "frlg_pokemon_tower"
 
+  - events: ["BIOME=legendarymonuments:plains_of_death"]
+    forceStopMusicOnValid: true
+    forceStartMusicOnValid: true
+    songs:
+      - "dppt_old_chateau"
+      - "frlg_pokemon_tower"
+      - "bw_n_room"
+
   - events: ["BIOME=basalt_deltas || BIOME=nether_wastes || BIOMETAG=IS_NETHER || BIOME=terralith:volcanic_peaks || BIOME=terralith:volcanic_crater || BIOME=terralith:caldera"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
@@ -436,6 +444,8 @@ entries:
       - "frlg_surf"
       - "rse_crossing_the_sea"
       - "hgss_s.s._aqua"
+      - "rse_route_110"
+      - "hgss_route_47"
 
   # - events: ["BIOMETAG=IS_FOREST || BIOMETAG=IS_SWAMP || BIOMETAG=IS_TAIGA"]
   #   forceStopMusicOnValid: true
@@ -505,13 +515,6 @@ entries:
       - "dppt_mt._coronet"
       - "hgss_dark_cave" #Same theme as ice path and mt. silver
 
-#Additional desert track? Check if this works
-  - events: ["BIOMETAG=IS_DESERT || BIOMETAG=IS_BADLANDS || BIOME=DESERT", "DAY"]
-    forceStopMusicOnValid: true
-    forceStartMusicOnValid: true
-    songs:
-      - "rse_drought"
-
   - events: ["BIOMETAG=IS_DESERT || BIOMETAG=IS_BADLANDS || BIOME=DESERT"]
     forceStopMusicOnValid: true
     forceStartMusicOnValid: true
@@ -521,6 +524,7 @@ entries:
       - "dppt_route_228_day"
       - "bw_route_4_summer"
       - "bw_route_10"
+      - "rse_drought"
 
   - events: [ "BIOME=meadow || BIOME=sunflower_plains || BIOME=plains || BIOMETAG=IS_PLAINS" ]
     forceStopMusicOnValid: true
