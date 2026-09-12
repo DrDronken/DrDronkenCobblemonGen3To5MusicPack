@@ -1,9 +1,9 @@
 ﻿name: "Dr. Drunk's Cobblemon gen 3-5 music pack"
 version: "1.0"
 author: "Dr. Dronken"
-description: "A configuration for the Pokémon soundtracks of several generation 3-5 pokemon games, namely RSE/HGSS/DPPt/BW/BW2 and some tracks from FRLG. For the best experience, use together with Legendary Monuments and Cobblebuilds."
+description: "A Reactive Music soundtrack pack from the Pokémon soundtracks of the generation 3-5 pokemon games RSE/HGSS/DPPt/BW/BW2 and some tracks from FRLG. For the best experience, use together with Legendary Monuments and Cobblebuilds. Do you have suggestions? Feel free to hit me up on discord."
 
-credits: ""
+credits: "Nintendo, Gamefreak"
 
 musicSwitchSpeed: INSTANT
 musicDelayLength: NORMAL
