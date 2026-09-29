@@ -1,0 +1,6526 @@
+{
+	"menu.hgss": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_opening_movie_2",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_title_screen",
+				"stream": true
+			}
+		]
+	},
+	"menu.frlg": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_opening_movie_2",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_title_screen",
+				"stream": true
+			}
+		]
+	},
+	"menu.emerald": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_title_screen",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_opening_movie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_opening_movie_2",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_title_screen",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.deep_ocean_dive": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dive",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.cave_of_origin": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_cave_of_origin",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.heavy_rain": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_heavy_rain",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.end_distortion_world": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_distortion_world",
+				"stream": true
+			}
+		]
+	},
+	"battle.kanto.legendary_default": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/frlg_battle_legendary_birds",
+				"stream": true
+			}
+		]
+	},
+	"battle.kanto.legendary_mewtwo": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_mewtwo",
+				"stream": true
+			}
+		]
+	},
+	"battle.kanto.legendary_deoxys": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_battle_deoxys",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.legendary_default": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/frlg_battle_legendary_birds",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.legendary_raikou": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_raikou",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.legendary_entei": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_entei",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.legendary_suicune": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_suicune",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.legendary_lugia": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_lugia",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.legendary_ho_oh": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_ho-oh",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.hgss_legendary_super_ancient": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_super-ancient_pokemon",
+				"stream": true
+			}
+		]
+	},
+	"battle.hoenn.legendary_regis": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_battle_regirockregiceregisteel",
+				"stream": true
+			}
+		]
+	},
+	"battle.hoenn.legendary_super_ancient": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_battle_super-ancient_pokemon",
+				"stream": true
+			}
+		]
+	},
+	"battle.sinnoh.legendary_default": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_battle_legendary_pokemon",
+				"stream": true
+			}
+		]
+	},
+	"battle.sinnoh.legendary_alt": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw2_battle_legendary_pokemon_sinnoh",
+				"stream": true
+			}
+		]
+	},
+	"battle.sinnoh.platinum_legendary_arceus": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_battle_arceus",
+				"stream": true
+			}
+		]
+	},
+	"battle.sinnoh.legendary_dialga_palkia": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_battle_dialgapalkia",
+				"stream": true
+			}
+		]
+	},
+	"battle.sinnoh.legendary_giratina": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_battle_giratina",
+				"stream": true
+			}
+		]
+	},
+	"battle.sinnoh.legendary_lake_trio": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_battle_azelfmesprituxie",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_battle_azelfmesprituxie",
+				"stream": true
+			}
+		]
+	},
+	"battle.unova.bw_legendary_default": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_battle_legendary_pokemon",
+				"stream": true
+			}
+		]
+	},
+	"battle.unova.bw_legendary_reshiramzekrom": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_battle_reshiramzekrom",
+				"stream": true
+			}
+		]
+	},
+	"battle.unova.bw_legendary_kyurem": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_battle_kyurem",
+				"stream": true
+			}
+		]
+	},
+	"battle.unova.legendary_black_white_kyurem": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw2_battle_black_kyuremwhite_kyurem",
+				"stream": true
+			}
+		]
+	},
+	"battle.kanto.trainer": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_trainer_kanto",
+				"stream": true
+			}
+		]
+	},
+	"battle.kanto.wild": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_kanto",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.trainer": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_trainer_johto",
+				"stream": true
+			}
+		]
+	},
+	"battle.johto.wild": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_johto",
+				"stream": true
+			}
+		]
+	},
+	"battle.hoenn.trainer": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_battle_trainer",
+				"stream": true
+			}
+		]
+	},
+	"battle.hoenn.wild": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_battle_wild_pokemon",
+				"stream": true
+			}
+		]
+	},
+	"battle.sinnoh.trainer": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_battle_trainer",
+				"stream": true
+			}
+		]
+	},
+	"battle.sinnoh.wild": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_battle_wild_pokemon",
+				"stream": true
+			}
+		]
+	},
+	"battle.unova.trainer": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_battle_trainer",
+				"stream": true
+			}
+		]
+	},
+	"battle.unova.wild": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_battle_wild_pokemon",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.forest_viridian": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_eterna_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_lake",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_musical_forest_stroll",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_white_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lostlorn_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_petalburg_woods",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.forest_ecruteak": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_eterna_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_lake",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_musical_forest_stroll",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_white_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lostlorn_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_petalburg_woods",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.forest_national_park": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_eterna_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_lake",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_musical_forest_stroll",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_white_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lostlorn_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_petalburg_woods",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.forest_safari_zone": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_eterna_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_lake",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_musical_forest_stroll",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_white_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lostlorn_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_petalburg_woods",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.forest_petalburg_woods": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_eterna_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_lake",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_musical_forest_stroll",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_white_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lostlorn_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_petalburg_woods",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.forest_eterna_forest": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_eterna_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_lake",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_musical_forest_stroll",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_white_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lostlorn_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_petalburg_woods",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.forest_floaroma_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_eterna_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_lake",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_musical_forest_stroll",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_white_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lostlorn_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_viridian_forest",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_petalburg_woods",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.route_42_mountain": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_violet_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pewter_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_eterna_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nacrene_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_striaton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_black_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower_entrance",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lacunosa_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_white",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_reversal_mountain_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_reversal_mountain_white",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_road_to_reversal_mountain",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_dragonspiral_tower_top_floor",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre_exterior",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.route_47_harsh_mountain": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_violet_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pewter_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_eterna_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nacrene_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_striaton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_black_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower_entrance",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lacunosa_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_white",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_reversal_mountain_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_reversal_mountain_white",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_road_to_reversal_mountain",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_dragonspiral_tower_top_floor",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre_exterior",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.mountain_mt_pyre_exterior": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_violet_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pewter_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_eterna_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nacrene_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_striaton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_black_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower_entrance",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lacunosa_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_white",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_reversal_mountain_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_reversal_mountain_white",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_road_to_reversal_mountain",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_dragonspiral_tower_top_floor",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre_exterior",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.mountain_mt_coronet": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_violet_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pewter_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_eterna_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nacrene_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_striaton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_black_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower_entrance",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lacunosa_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_white",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_reversal_mountain_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_reversal_mountain_white",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_road_to_reversal_mountain",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_dragonspiral_tower_top_floor",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre_exterior",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.cave_mt_moon": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_gate",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_ruins_of_alph",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_underground_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_chargestone_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_mine",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_mt. moon",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.cave_deep_dark_pokegear_unown": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_gate",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_ruins_of_alph",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_underground_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_chargestone_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_mine",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_mt. moon",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.cave_ruins_of_alph": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_gate",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_ruins_of_alph",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_underground_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_chargestone_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_mine",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_mt. moon",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.cave_union_cave": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_gate",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_ruins_of_alph",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_underground_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_chargestone_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_mine",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_mt. moon",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.cave_dragons_den": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_gate",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_ruins_of_alph",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_underground_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_chargestone_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_mine",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_mt. moon",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.cave_oreburgh_mine": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_gate",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_ruins_of_alph",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_underground_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_chargestone_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_mine",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_mt. moon",
+				"stream": true
+			}
+		]
+	},
+	"ambience.unova.cave_underground_ruins": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_gate",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_mt. moon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_olivine_lighthouse",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_ruins_of_alph",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_victory_road",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_underground_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_chargestone_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_mine",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_mt. moon",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.ocean_the_sea": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.coastal_to_bill": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.ocean_surf": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.route_38_coastal": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.ocean_surf": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.ocean_crossing_the_sea": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.ocean_oceanic_museum": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.ocean_lake": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.plains_route_110": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_surf",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_crossing_the_sea",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_s.s. aqua",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_110",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_47",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_valor_lakefront_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.desert_route_111": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_route_111",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_113",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_228_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_4_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_drought",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.desert_drought": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_route_111",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_113",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_228_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_4_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_drought",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.volcanic_route_113": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_route_111",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_113",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_228_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_4_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_drought",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.snowy_snowpoint_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_route_216_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_216_night",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_frozen_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_cold_storage",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_19_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_22_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_2_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_4_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.snowy_route_216": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_route_216_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_216_night",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_frozen_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_cold_storage",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_19_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_22_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_2_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_4_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			}
+		]
+	},
+	"ambience.unova.snowy_frozen_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_route_216_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_216_night",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_frozen_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_cold_storage",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_19_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_22_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_2_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_4_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.plains_road_to_viridian": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.plains_pallet_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.plains_route_30": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.route_26_open": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.plains_route_29": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.plains_new_bark_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.plains_route_120": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.plains_route_104": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.plains_oldale_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.plains_route_101": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.plains_littleroot_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.plains_route_210": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.plains_route_209": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.plains_route_205": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.plains_route_203": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.plains_sandgem_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.plains_route_201": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.plains_twinleaf_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.unova.plains_route_19_summer": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.unova.plains_aspertia_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_route_1",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_201_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_205_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_209_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_3",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_30",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_34",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_11",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_24",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_38",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_42",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_29",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_national_park",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_101",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_104",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_10",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_23",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_225_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_route_26",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_119",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_route_120",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_210_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_22_summer",
+				"stream": true
+			}
+		]
+	},
+	"ambience.johto.cave_ice_path": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw2_frozen_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_mt. coronet",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_dark_cave",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_216_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_route_216_night",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_cold_storage",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_route_19_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_12_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_22_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_2_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_4_winter",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_route_6_winter",
+				"stream": true
+			}
+		]
+	},
+	"ambience.hoenn.volcanic_mt_chimney": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_the_pokemon_league_besieged",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_n_dragon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_n_castle",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_theres_trouble",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_special_program_search_for_the_red_gyarados",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_stark_mountain",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre_exterior",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. chimney",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_pokemon_mansion",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.deep_dark_pokemon_mansion": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/bw_the_pokemon_league_besieged",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_n_dragon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_n_castle",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_theres_trouble",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_special_program_search_for_the_red_gyarados",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_stark_mountain",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. pyre_exterior",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_mt. chimney",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_pokemon_mansion",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.pokemon_tower": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_drought",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_relic_castle",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_abyssal_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_old_chateau",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_pokemon_tower",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.deep_dark_lavender_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_drought",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_relic_castle",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_abyssal_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_old_chateau",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_pokemon_tower",
+				"stream": true
+			}
+		]
+	},
+	"ambience.kanto.route_lavender_somber": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_drought",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_relic_castle",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_abyssal_ruins",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_old_chateau",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_pokemon_tower",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_snowy.snowpoint_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_snowpoint_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_snowpoint_city_night",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_icirrus_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_frozen_city",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_snowy.mahogany_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_snowpoint_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_snowpoint_city_night",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_icirrus_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_frozen_city",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_snowy.icirrus_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_snowpoint_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_snowpoint_city_night",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_icirrus_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_frozen_city",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_desert.rustboro_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_ecruteak_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cianwood_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sunyshore_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_mistralton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_anville_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_lentimas_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_desert.route_111": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_ecruteak_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cianwood_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sunyshore_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_mistralton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_anville_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_lentimas_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_desert.lentimas_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_ecruteak_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cianwood_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sunyshore_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_mistralton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_anville_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_lentimas_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_desert.fallarbor_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_ecruteak_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cianwood_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sunyshore_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_mistralton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_anville_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_lentimas_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_taiga.fortree_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_petalburg_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_rustboro_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_eterna_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fortree_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_striaton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_violet_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pewter_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nacrene_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_black_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower_entrance",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lacunosa_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_white",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_taiga.eterna_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_petalburg_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_rustboro_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_eterna_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fortree_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_striaton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_violet_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pewter_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nacrene_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_black_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower_entrance",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lacunosa_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_white",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_taiga.celestic_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_petalburg_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_rustboro_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_eterna_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fortree_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_striaton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_violet_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pewter_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nacrene_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_black_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower_entrance",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lacunosa_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_white",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_taiga.canalave_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_petalburg_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_rustboro_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_eterna_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fortree_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_striaton_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_fallarbor_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_violet_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pewter_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_oreburgh_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nacrene_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_black_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_black_tower_entrance",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_lavender_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_lacunosa_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_black",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_opelucid_city_white",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_savanna.verdantuf_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_floaroma_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_savanna.goldenrod_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_floaroma_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_savanna.floccesy_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_floaroma_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_savanna.azalea_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_floaroma_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_dewford_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_lilycove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_slateport_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_vermilion_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/frlg_cinnabar_island",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_canalave_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_undella_town_summer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw2_humilau_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_unity_tower",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_sootopolis_city",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_plains.twinleaf_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_goldenrod_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_celadon_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cerulean_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_hearthome_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_veilstone_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_castelia_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nimbasa_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_littleroot_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_oldale_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_verdanturf_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nuvema_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_accumula_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_twinleaf_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cherrygrove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pallet_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_new_bark_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sandgem_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_solaceon_town_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_plains.rustboro_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_goldenrod_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_celadon_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cerulean_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_hearthome_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_veilstone_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_castelia_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nimbasa_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_littleroot_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_oldale_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_verdanturf_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nuvema_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_accumula_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_twinleaf_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cherrygrove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pallet_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_new_bark_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sandgem_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_solaceon_town_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_plains.pewter_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_goldenrod_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_celadon_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cerulean_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_hearthome_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_veilstone_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_castelia_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nimbasa_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_littleroot_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_oldale_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_verdanturf_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nuvema_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_accumula_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_twinleaf_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cherrygrove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pallet_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_new_bark_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sandgem_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_solaceon_town_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_plains.pallet_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_goldenrod_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_celadon_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cerulean_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_hearthome_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_veilstone_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_castelia_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nimbasa_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_littleroot_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_oldale_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_verdanturf_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nuvema_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_accumula_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_twinleaf_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cherrygrove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pallet_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_new_bark_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sandgem_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_solaceon_town_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_plains.nuvema_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_goldenrod_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_celadon_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cerulean_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_hearthome_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_veilstone_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_castelia_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nimbasa_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_littleroot_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_oldale_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_verdanturf_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nuvema_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_accumula_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_twinleaf_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cherrygrove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pallet_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_new_bark_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sandgem_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_solaceon_town_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_plains.newbark_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_goldenrod_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_celadon_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cerulean_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_hearthome_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_veilstone_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_castelia_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nimbasa_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_littleroot_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_oldale_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_verdanturf_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nuvema_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_accumula_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_twinleaf_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cherrygrove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pallet_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_new_bark_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sandgem_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_solaceon_town_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_plains.littleroot_town": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_goldenrod_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_celadon_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cerulean_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_hearthome_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_veilstone_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_castelia_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nimbasa_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_littleroot_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_oldale_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_verdanturf_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nuvema_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_accumula_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_twinleaf_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cherrygrove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pallet_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_new_bark_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sandgem_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_solaceon_town_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.vanilla.village_plains.cherrygrove_city": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_goldenrod_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_celadon_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cerulean_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_jubilife_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_hearthome_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_veilstone_city_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_castelia_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nimbasa_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_littleroot_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_oldale_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_verdanturf_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_nuvema_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_accumula_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_ever_grande_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_twinleaf_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_cherrygrove_city",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_pallet_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_new_bark_town",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_sandgem_town_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_solaceon_town_day",
+				"stream": true
+			}
+		]
+	},
+	"ambience.pokecenter.kanto_center": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_night",
+				"stream": true
+			}
+		]
+	},
+	"ambience.pokecenter.johto_center": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_night",
+				"stream": true
+			}
+		]
+	},
+	"ambience.pokecenter.hoenn_center": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_night",
+				"stream": true
+			}
+		]
+	},
+	"ambience.pokecenter.sinnoh_center": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_night",
+				"stream": true
+			}
+		]
+	},
+	"ambience.pokecenter.unova_center": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_day",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_pokemon_center_night",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.spear_pillar": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_spear_pillar",
+				"stream": true
+			}
+		]
+	},
+	"ambience.sinnoh.cave_lake_caverns": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_lake_caverns",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.deoxys": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/frlg_deoxys_appearance",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.regirock": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_sealed_chamber",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.regice": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_sealed_chamber",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.registeel": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_sealed_chamber",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.kyogre": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_cave_of_origin",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.groudon": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_cave_of_origin",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.sky_pillar": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/rse_mt. chimney",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.bell_tower": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_bell_tower",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.whirl_island": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_union_cave",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.burned_tower": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_burned_tower",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.snowpoint_temple": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_eterna_forest",
+				"stream": true
+			}
+		]
+	},
+	"ambience.structure.fullmoon_island": {
+		"sounds": [
+			{
+				"name": "cobbletunes:music/dppt_old_chateau",
+				"stream": true
+			}
+		]
+	}
+}
