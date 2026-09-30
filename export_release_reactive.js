@@ -20,8 +20,6 @@ for (const entry of config.entries ?? []) {
 	if (Array.isArray(entry.songs)) {
 		unique_files.push(...entry.songs);
 	} else if (typeof entry.songs === "string") {
-		// Handles a single song written as:
-		// songs: "song_name"
 		unique_files.push(entry.songs);
 	}
 }
@@ -31,20 +29,44 @@ const uniqueFiles = [...new Set(unique_files)];
 
 console.log(`Found ${uniqueFiles.length} unique files`);
 
-// Paths
+// ============================================================
+// PATHS
+// ============================================================
+
 const packDir = path.join(
 	__dirname,
 	"pokemon-music-datapack"
 );
 
-const musicDir = path.join(packDir, "music");
+const musicDir = path.join(
+	packDir,
+	"music"
+);
+
+const reactiveMusicYaml = path.join(
+	packDir,
+	"ReactiveMusic.yaml"
+);
+
+const packPng = path.join(
+	packDir,
+	"pack.png"
+);
+
+const packMcmeta = path.join(
+	packDir,
+	"pack.mcmeta"
+);
 
 const outputZip = path.join(
 	__dirname,
 	"DrDronkenCobblemonMusicPack.zip"
 );
 
-// Create ZIP
+// ============================================================
+// CREATE ZIP
+// ============================================================
+
 const output = fs.createWriteStream(outputZip);
 
 const archive = new ZipArchive({
@@ -62,42 +84,78 @@ archive.on("error", err => {
 
 archive.pipe(output);
 
-// Add everything from pokemon-music-datapack EXCEPT music/
-for (const entry of fs.readdirSync(packDir, { withFileTypes: true })) {
-	if (entry.name === "music") continue;
+// ============================================================
+// ADD PACK METADATA
+// ============================================================
 
-	const fullPath = path.join(packDir, entry.name);
-
-	if (entry.isDirectory()) {
-		archive.directory(fullPath, entry.name);
-	} else {
-		archive.file(fullPath, {
-			name: entry.name
-		});
-	}
+if (!fs.existsSync(reactiveMusicYaml)) {
+	throw new Error(
+		`ReactiveMusic.yaml not found: ${reactiveMusicYaml}`
+	);
 }
 
-// Add only the referenced music files
+archive.file(reactiveMusicYaml, {
+	name: "ReactiveMusic.yaml"
+});
+
+if (fs.existsSync(packPng)) {
+	archive.file(packPng, {
+		name: "pack.png"
+	});
+} else {
+	console.warn("pack.png not found - continuing without it");
+}
+
+if (fs.existsSync(packMcmeta)) {
+	archive.file(packMcmeta, {
+		name: "pack.mcmeta"
+	});
+} else {
+	console.warn("pack.mcmeta not found - continuing without it");
+}
+
+// ============================================================
+// ADD ONLY REFERENCED MUSIC FILES
+// ============================================================
+
 let added = 0;
 let missing = 0;
 
 for (const file of uniqueFiles) {
+
 	const filename = `${file}.mp3`;
-	const fullPath = path.join(musicDir, filename);
+
+	const fullPath = path.join(
+		musicDir,
+		filename
+	);
 
 	if (fs.existsSync(fullPath)) {
+
 		archive.file(fullPath, {
-			name: path.join("music", filename)
+			name: path.join(
+				"music",
+				filename
+			)
 		});
 
 		added++;
+
 	} else {
-		console.warn(`Missing: ${filename}`);
+
+		console.warn(
+			`Missing: ${filename}`
+		);
+
 		missing++;
 	}
 }
 
 console.log(`Added ${added} music files`);
 console.log(`Missing ${missing} music files`);
+
+// ============================================================
+// FINISH
+// ============================================================
 
 archive.finalize();
