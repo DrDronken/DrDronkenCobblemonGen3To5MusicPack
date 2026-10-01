@@ -60,7 +60,7 @@ const packMcmeta = path.join(
 
 const outputZip = path.join(
 	__dirname,
-	"DrDronkenCobblemonMusicPack.zip"
+	"DrDrunkCobblemonGeneration3to5MusicPack.zip"
 );
 
 // ============================================================
