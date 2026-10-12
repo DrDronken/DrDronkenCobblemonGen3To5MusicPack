@@ -360,6 +360,22 @@
 			{
 				"name": "cobbletunes:music/hgss_battle_trainer_kanto",
 				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_battle_trainer_johto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_battle_trainer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_battle_trainer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_battle_trainer",
+				"stream": true
 			}
 		]
 	},
@@ -368,13 +384,45 @@
 			{
 				"name": "cobbletunes:music/hgss_battle_wild_pokemon_kanto",
 				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_johto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_battle_wild_pokemon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_battle_wild_pokemon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_battle_wild_pokemon",
+				"stream": true
 			}
 		]
 	},
 	"battle.johto.trainer": {
 		"sounds": [
 			{
+				"name": "cobbletunes:music/hgss_battle_trainer_kanto",
+				"stream": true
+			},
+			{
 				"name": "cobbletunes:music/hgss_battle_trainer_johto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_battle_trainer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_battle_trainer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_battle_trainer",
 				"stream": true
 			}
 		]
@@ -382,7 +430,23 @@
 	"battle.johto.wild": {
 		"sounds": [
 			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_kanto",
+				"stream": true
+			},
+			{
 				"name": "cobbletunes:music/hgss_battle_wild_pokemon_johto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_battle_wild_pokemon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_battle_wild_pokemon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_battle_wild_pokemon",
 				"stream": true
 			}
 		]
@@ -390,7 +454,23 @@
 	"battle.hoenn.trainer": {
 		"sounds": [
 			{
+				"name": "cobbletunes:music/hgss_battle_trainer_kanto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_battle_trainer_johto",
+				"stream": true
+			},
+			{
 				"name": "cobbletunes:music/rse_battle_trainer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_battle_trainer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_battle_trainer",
 				"stream": true
 			}
 		]
@@ -398,7 +478,23 @@
 	"battle.hoenn.wild": {
 		"sounds": [
 			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_kanto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_johto",
+				"stream": true
+			},
+			{
 				"name": "cobbletunes:music/rse_battle_wild_pokemon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_battle_wild_pokemon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_battle_wild_pokemon",
 				"stream": true
 			}
 		]
@@ -406,7 +502,23 @@
 	"battle.sinnoh.trainer": {
 		"sounds": [
 			{
+				"name": "cobbletunes:music/hgss_battle_trainer_kanto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_battle_trainer_johto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_battle_trainer",
+				"stream": true
+			},
+			{
 				"name": "cobbletunes:music/dppt_battle_trainer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_battle_trainer",
 				"stream": true
 			}
 		]
@@ -414,13 +526,45 @@
 	"battle.sinnoh.wild": {
 		"sounds": [
 			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_kanto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_johto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_battle_wild_pokemon",
+				"stream": true
+			},
+			{
 				"name": "cobbletunes:music/dppt_battle_wild_pokemon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/bw_battle_wild_pokemon",
 				"stream": true
 			}
 		]
 	},
 	"battle.unova.trainer": {
 		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_trainer_kanto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_battle_trainer_johto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_battle_trainer",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_battle_trainer",
+				"stream": true
+			},
 			{
 				"name": "cobbletunes:music/bw_battle_trainer",
 				"stream": true
@@ -429,6 +573,22 @@
 	},
 	"battle.unova.wild": {
 		"sounds": [
+			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_kanto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/hgss_battle_wild_pokemon_johto",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/rse_battle_wild_pokemon",
+				"stream": true
+			},
+			{
+				"name": "cobbletunes:music/dppt_battle_wild_pokemon",
+				"stream": true
+			},
 			{
 				"name": "cobbletunes:music/bw_battle_wild_pokemon",
 				"stream": true
